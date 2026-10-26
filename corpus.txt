@@ -1,0 +1,6 @@
+machine learning is a field of artificial intelligence
+machine learning algorithms learn patterns from data
+deep learning is a subset of machine learning
+learning algorithms can analyze data
+machine learning models are trained on data
+researchers use machine learning for image classification

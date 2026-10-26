@@ -1,0 +1,95 @@
+{
+    "evaluation": {
+        "ragas_version": "0.4.3",
+        "samples": 5,
+        "evaluator_llm": "qwen3:8b",
+        "ollama_host": "http://localhost:11434",
+        "metrics": [
+            "faithfulness",
+            "answer_relevancy",
+            "context_precision",
+            "latency"
+        ]
+    },
+    "ragas_metrics": {
+        "faithfulness": null,
+        "answer_relevancy": null,
+        "context_precision": null
+    },
+    "latency_metrics": {
+        "embedding_ms": {
+            "average_ms": 2552.370399958454,
+            "p50_ms": 2172.092199907638,
+            "p95_ms": 3721.2331800255924,
+            "p99_ms": 4027.678076038137,
+            "samples": 5
+        },
+        "chroma_ms": {
+            "average_ms": 21.617540018633008,
+            "p50_ms": 7.542600040324032,
+            "p95_ms": 67.46587995439766,
+            "p99_ms": 79.37541594728827,
+            "samples": 5
+        },
+        "retrieval_total_ms": {
+            "average_ms": 2574.0195999620482,
+            "p50_ms": 2180.043299915269,
+            "p95_ms": 3787.7665999345477,
+            "p99_ms": 4106.882919911295,
+            "samples": 5
+        },
+        "prompt_ms": {
+            "average_ms": 0.05480004474520683,
+            "p50_ms": 0.06009999196976423,
+            "p95_ms": 0.0818600645288825,
+            "p99_ms": 0.0855720741674304,
+            "samples": 5
+        },
+        "llm_ms": {
+            "average_ms": 58137.212019995786,
+            "p50_ms": 42734.6371000167,
+            "p95_ms": 100361.76057991106,
+            "p99_ms": 107016.54435590375,
+            "samples": 5
+        },
+        "total_ms": {
+            "average_ms": 60711.34089999832,
+            "p50_ms": 44912.985699949786,
+            "p95_ms": 104149.59644000046,
+            "p99_ms": 111123.49816800095,
+            "samples": 5
+        }
+    },
+    "per_question": [
+        {
+            "id": "q0001",
+            "question": "What is the Recovery Time Objective (RTO) for Core AI services (policing)?",
+            "error": "Cannot use agenerate() with a synchronous client. Use generate() instead.",
+            "error_type": "TypeError"
+        },
+        {
+            "id": "q0002",
+            "question": "How often are critical data backups tested for restore capability?",
+            "error": "Cannot use agenerate() with a synchronous client. Use generate() instead.",
+            "error_type": "TypeError"
+        },
+        {
+            "id": "q0003",
+            "question": "When was the document last reviewed?",
+            "error": "Cannot use agenerate() with a synchronous client. Use generate() instead.",
+            "error_type": "TypeError"
+        },
+        {
+            "id": "q0004",
+            "question": "What is the title of the document mentioned in the content?",
+            "error": "Cannot use agenerate() with a synchronous client. Use generate() instead.",
+            "error_type": "TypeError"
+        },
+        {
+            "id": "q0005",
+            "question": "What are the core principles outlined in the Code of Conduct and Ethics for Capulus Technologies?",
+            "error": "Cannot use agenerate() with a synchronous client. Use generate() instead.",
+            "error_type": "TypeError"
+        }
+    ]
+}

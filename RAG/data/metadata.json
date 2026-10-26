@@ -1,0 +1,198 @@
+[
+  {
+    "document_id": "SYN-FIR-001",
+    "filename": "FIR_01_Mobile_Phone_Theft.pdf",
+    "case_type": "Mobile Phone Theft",
+    "sections": [
+      "379",
+      "34"
+    ],
+    "similarity_group": "theft"
+  },
+  {
+    "document_id": "SYN-FIR-002",
+    "filename": "FIR_02_Mobile_Phone_Theft.pdf",
+    "case_type": "Mobile Phone Theft",
+    "sections": [
+      "379"
+    ],
+    "similarity_group": "theft"
+  },
+  {
+    "document_id": "SYN-FIR-003",
+    "filename": "FIR_03_Motorcycle_Theft.pdf",
+    "case_type": "Motorcycle Theft",
+    "sections": [
+      "379"
+    ],
+    "similarity_group": "theft"
+  },
+  {
+    "document_id": "SYN-FIR-004",
+    "filename": "FIR_04_Motorcycle_Theft.pdf",
+    "case_type": "Motorcycle Theft",
+    "sections": [
+      "379",
+      "34"
+    ],
+    "similarity_group": "theft"
+  },
+  {
+    "document_id": "SYN-FIR-005",
+    "filename": "FIR_05_UPI_Cyber_Fraud.pdf",
+    "case_type": "UPI Cyber Fraud",
+    "sections": [
+      "66C",
+      "420"
+    ],
+    "similarity_group": "cyber_fraud"
+  },
+  {
+    "document_id": "SYN-FIR-006",
+    "filename": "FIR_06_Online_Shopping_Fraud.pdf",
+    "case_type": "Online Shopping Fraud",
+    "sections": [
+      "66D",
+      "420"
+    ],
+    "similarity_group": "cyber_fraud"
+  },
+  {
+    "document_id": "SYN-FIR-007",
+    "filename": "FIR_07_Banking_OTP_Fraud.pdf",
+    "case_type": "Banking OTP Fraud",
+    "sections": [
+      "66C",
+      "66D",
+      "420"
+    ],
+    "similarity_group": "cyber_fraud"
+  },
+  {
+    "document_id": "SYN-FIR-008",
+    "filename": "FIR_08_Simple_Assault.pdf",
+    "case_type": "Simple Assault",
+    "sections": [
+      "323",
+      "504"
+    ],
+    "similarity_group": "assault"
+  },
+  {
+    "document_id": "SYN-FIR-009",
+    "filename": "FIR_09_Assault_During_Dispute.pdf",
+    "case_type": "Assault During Dispute",
+    "sections": [
+      "323",
+      "504",
+      "506"
+    ],
+    "similarity_group": "assault"
+  },
+  {
+    "document_id": "SYN-FIR-010",
+    "filename": "FIR_10_Street_Altercation.pdf",
+    "case_type": "Street Altercation",
+    "sections": [
+      "323",
+      "341",
+      "504"
+    ],
+    "similarity_group": "assault"
+  },
+  {
+    "document_id": "SYN-FIR-011",
+    "filename": "FIR_11_House_Burglary.pdf",
+    "case_type": "House Burglary",
+    "sections": [
+      "454",
+      "380"
+    ],
+    "similarity_group": "burglary_property"
+  },
+  {
+    "document_id": "SYN-FIR-012",
+    "filename": "FIR_12_Shop_Burglary.pdf",
+    "case_type": "Shop Burglary",
+    "sections": [
+      "457",
+      "380"
+    ],
+    "similarity_group": "burglary_property"
+  },
+  {
+    "document_id": "SYN-FIR-013",
+    "filename": "FIR_13_Residential_Theft.pdf",
+    "case_type": "Residential Theft",
+    "sections": [
+      "380"
+    ],
+    "similarity_group": "burglary_property"
+  },
+  {
+    "document_id": "SYN-FIR-014",
+    "filename": "FIR_14_Missing_Person.pdf",
+    "case_type": "Missing Person",
+    "sections": [
+      "363"
+    ],
+    "similarity_group": "other"
+  },
+  {
+    "document_id": "SYN-FIR-015",
+    "filename": "FIR_15_Document_Theft.pdf",
+    "case_type": "Document Theft",
+    "sections": [
+      "379"
+    ],
+    "similarity_group": "other"
+  },
+  {
+    "document_id": "SYN-FIR-016",
+    "filename": "FIR_16_Road_Accident.pdf",
+    "case_type": "Road Accident",
+    "sections": [
+      "279",
+      "337"
+    ],
+    "similarity_group": "other"
+  },
+  {
+    "document_id": "SYN-FIR-017",
+    "filename": "FIR_17_Property_Damage.pdf",
+    "case_type": "Property Damage",
+    "sections": [
+      "427"
+    ],
+    "similarity_group": "other"
+  },
+  {
+    "document_id": "SYN-FIR-018",
+    "filename": "FIR_18_Workplace_Theft.pdf",
+    "case_type": "Workplace Theft",
+    "sections": [
+      "379"
+    ],
+    "similarity_group": "other"
+  },
+  {
+    "document_id": "SYN-FIR-019",
+    "filename": "FIR_19_Cheque_Fraud.pdf",
+    "case_type": "Cheque Fraud",
+    "sections": [
+      "420",
+      "138"
+    ],
+    "similarity_group": "other"
+  },
+  {
+    "document_id": "SYN-FIR-020",
+    "filename": "FIR_20_Public_Nuisance_and_Threat.pdf",
+    "case_type": "Public Nuisance and Threat",
+    "sections": [
+      "504",
+      "506"
+    ],
+    "similarity_group": "other"
+  }
+]

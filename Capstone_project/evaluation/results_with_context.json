@@ -1,0 +1,2406 @@
+{
+    "timestamp": "2026-10-07T11:52:16.900500+00:00",
+    "total_questions": 40,
+    "results": [
+        {
+            "id": "q0001",
+            "question": "What is the Recovery Time Objective (RTO) for Core AI services (policing)?",
+            "ground_truth": "4 hours",
+            "expected_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The Recovery Time Objective (RTO) for Core AI services (policing) is **4 hours**, as stated in **Business_Continuity_Disaster_Recovery.pdf** on page 1.",
+            "actual_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c2",
+                    "distance": 0.36223363876342773,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1,
+                    "text": "TO) and Recovery Point Objectives (RPO)\nSystem / Function | RTO | RPO\n| ------------------ | ----- | ----- |\nCore AI services (policing) | 4 hours | 15 min\nCustomer-facing portals | 8 hours | 1 hour\nInternal IT (email, HR systems) | 24 hours | 24 hours\nFinancial systems | 12 hours | 4 hours\n4.0 Incident Response Phases\n4.1 Detection and Activation\n Any employee can report a disruption (IT outage, cyberattack, natural disaster) to the Incident\nResponse Team (IRT).\n IRT lead declares a crisis and activates the plan.\n4.2 Communication\n Internal: Slack #business-continuity channel, email update"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c4",
+                    "distance": 0.6109448671340942,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "orted by AI must be explainable to end■users (e.g., police officers, city\nplanners).\n For critical decisions, a human■in■the■loop is required.\n4.3 Accountability\n Each AI system has an appointed \"AI Ethics Owner\" responsible for ongoing monitoring.\n Regular ethics reviews are conducted quarterly.\n4.4 Robustness and Security\n AI models must be resilient to adversarial attacks.\n Continuous monitoring for data drift and performance degradation.\n5.0 Roles and Responsibilities\n Data Protection Officer (DPO): Oversees compliance with data privacy laws.\n AI Ethics Board: Reviews high■risk AI p"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c4",
+                    "distance": 0.6642310619354248,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "view at 30/60/90 days.\n2.6 Maintenance and Retirement\n Activities: Ongoing support, patches, feature updates; end■of■life planning.\n Deliverables: Deprecation notice, data migration plan.\n3.0 AI■Specific Requirements\n Data Governance: All training data must be documented and approved for use.\n Model Cards: Each AI model must have a model card detailing its intended use, performance metrics,\nand limitations.\n Human Oversight: For high■risk applications (e.g., facial recognition in policing), a human must\nalways confirm AI recommendations.\n4.0 Quality Gates and Approvals\nPhase | Required Ap"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 4104.289300041273,
+                "chroma_ms": 82.35279994551092,
+                "retrieval_total_ms": 4186.661999905482,
+                "prompt_ms": 0.03920006565749645,
+                "llm_ms": 108680.24029990193,
+                "total_ms": 112866.97360000107
+            },
+            "request_id": "1732dfbd-35f3-4f9b-a23c-9fb3b642bd53"
+        },
+        {
+            "id": "q0002",
+            "question": "How often are critical data backups tested for restore capability?",
+            "ground_truth": "Monthly",
+            "expected_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "Critical data backups are tested monthly for restore capability, as stated in SOURCE 1, Page 1.",
+            "actual_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c4",
+                    "distance": 0.6196388602256775,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1,
+                    "text": "ed co■working spaces in major cities.\n4.4 Resumption and Lessons Learned\n Gradual return to normal operations.\n Post■incident review within 30 days; update plan accordingly.\n5.0 Backup Requirements\n Critical data: Backed up every 4 hours, stored in two separate geographic locations.\n Non■critical data: Daily backups.\n Backups are tested monthly for restore capability.\n6.0 Training and Testing\n Tabletop exercises: Twice per year.\n Full■scale drill: Annually.\n New employees receive BC/DR awareness during onboarding.\n---\nPlan Owner: Chief Information Security Officer (CISO)"
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.6748158931732178,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "and testing.\n Comply with all data protection laws.\n5.0 Success Criteria\n Customer Satisfaction Score (CSAT): ≥ 4.5/5 at 90 days post■launch.\n System Uptime: ≥ 99.5% (excluding scheduled maintenance)."
+                },
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c3",
+                    "distance": 0.8168343901634216,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1,
+                    "text": "d activates the plan.\n4.2 Communication\n Internal: Slack #business-continuity channel, email updates.\n External: Customers notified via status page; key clients contacted directly.\n Media: Only designated spokespersons communicate publicly.\n4.3 Recovery Procedures\n IT Systems:\n Failover to secondary data center or cloud region.\n Restore data from encrypted backups (tested quarterly).\n Remote Work: All employees can work remotely if offices are inaccessible.\n Alternative Sites: Pre■arranged co■working spaces in major cities.\n4.4 Resumption and Lessons Learned\n Gradual return to normal"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2170.6149999517947,
+                "chroma_ms": 7.542600040324032,
+                "retrieval_total_ms": 2178.210499929264,
+                "prompt_ms": 0.06330001633614302,
+                "llm_ms": 42734.6371000167,
+                "total_ms": 44912.985699949786
+            },
+            "request_id": "e7ce0871-f802-4ca5-a2d6-72552940aafc"
+        },
+        {
+            "id": "q0003",
+            "question": "When was the document last reviewed?",
+            "ground_truth": "December 2023",
+            "expected_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The document \"Business_Continuity_Disaster_Recovery.pdf\" was last reviewed in December 2023 (Source 1, Page 2). The other documents do not provide specific dates for their last review.",
+            "actual_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p2_c1",
+                    "distance": 0.6646055579185486,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 2,
+                    "text": "Last Reviewed: December 2023"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p2_c1",
+                    "distance": 0.7236661314964294,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2,
+                    "text": "Review Cycle: This policy is reviewed annually or after any major regulatory change."
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.7875453233718872,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2,
+                    "text": "Section 7: Performance Reviews\n 90■Day Review: For new hires.\n Annual Reviews: Every December.\n Quarterly Check■ins: Informal progress discussions.\n Promotion Cycles: March and September."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2125.846799928695,
+                "chroma_ms": 7.111600018106401,
+                "retrieval_total_ms": 2132.997200009413,
+                "prompt_ms": 0.08650007657706738,
+                "llm_ms": 30386.166300042532,
+                "total_ms": 32519.31780006271
+            },
+            "request_id": "53df1e6e-9f4b-4c32-842c-b604a663f60c"
+        },
+        {
+            "id": "q0004",
+            "question": "What is the title of the document mentioned in the content?",
+            "ground_truth": "Business Continuity Disaster Recovery.pdf",
+            "expected_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The title of the document mentioned in the content is \"Product Development Lifecycle\" from the document \"Product_Development_Lifecycle.pdf\" (Source 3, Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c3",
+                    "distance": 0.8983243107795715,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1,
+                    "text": "elopment Team: 5-7 members, cross■functional.\n Stakeholders: Provide feedback at reviews.\n3.0 Project Documentation\n3.1 Required Documents by Phase\nInitiation:\n Project Charter (mandatory)\n Business Case\n Stakeholder Register\nPlanning:\n Project Plan (mandatory)\n Risk Register (mandatory)\n Communication Plan\n Budget Approval\nExecution:\n Status Reports (weekly)\n Issue Log\n Change Requests\n Meeting Minutes\nClosure:\n Lessons Learned (mandatory)"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p3_c1",
+                    "distance": 0.930656909942627,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3,
+                    "text": "© 2024 Capulus Technologies. All rights reserved."
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c1",
+                    "distance": 0.9529579877853394,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "Product Development Lifecycle\nCapulus Technologies - Product Development Lifecycle\nVersion 1.5 - Effective January 1, 2024\n1.0 Overview\nThis document outlines the stages, deliverables, and quality gates for developing AI■powered products\nat Capulus, from ideation to retirement.\n2.0 Lifecycle Phases\n2.1 Discovery and Ideation\n Activities: Market research, customer interviews (law enforcement, city planners), feasibility study.\n Deliverables: Product concept document, initial business case.\n Gate: Concept approval by Product Council.\n2.2 Requirements and Design\n Activities: Define user stori"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2172.092199907638,
+                "chroma_ms": 7.918199989944696,
+                "retrieval_total_ms": 2180.043299915269,
+                "prompt_ms": 0.06009999196976423,
+                "llm_ms": 41797.17470007017,
+                "total_ms": 43977.33959998004
+            },
+            "request_id": "28c24b4a-7bfd-4ccc-a9c0-8a9c0f20adb3"
+        },
+        {
+            "id": "q0005",
+            "question": "What are the core principles outlined in the Code of Conduct and Ethics for Capulus Technologies?",
+            "ground_truth": "Integrity Without Compromise, Respect for All, Accountability for Actions, Transparency in Operations, and Excellence in Execution.",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The core principles outlined in the Code of Conduct and Ethics for Capulus Technologies are:\n\n1. **Integrity Without Compromise** - We act honestly and ethically in every situation.  \n2. **Respect for All** - We value diversity and treat everyone with dignity.  \n3. **Accountability for Actions** - We own our decisions and their outcomes.  \n4. **Transparency in Operations** - We communicate openly and honestly.  \n5. **Excellence in Execution** - We strive for the highest quality in everything we do.  \n\nThese principles are cited from **SOURCE 1** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c1",
+                    "distance": 0.30663442611694336,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "Code of Conduct Ethics\nCapulus Technologies - Code of Conduct and Ethics\nVersion 5.1 - Effective January 1, 2024\n1.0 Our Commitment to Ethics\n1.1 Core Principles\n Integrity Without Compromise - We act honestly and ethically in every situation.\n Respect for All - We value diversity and treat everyone with dignity.\n Accountability for Actions - We own our decisions and their outcomes.\n Transparency in Operations - We communicate openly and honestly.\n Excellence in Execution - We strive for the highest quality in everything we do.\n1.2 Scope\nThis Code applies to all employees (full■time, part"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p3_c1",
+                    "distance": 0.5254508852958679,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3,
+                    "text": "© 2024 Capulus Technologies. All rights reserved."
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c4",
+                    "distance": 0.54374760389328,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2,
+                    "text": "nderstand the Capulus Code of Conduct and Ethics. I agree to comply with\nall provisions.\nEmployee Signature: ________________________ Date: ______________"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2189.0086999628693,
+                "chroma_ms": 3.1625000992789865,
+                "retrieval_total_ms": 2192.185000050813,
+                "prompt_ms": 0.024900073185563087,
+                "llm_ms": 67087.8416999476,
+                "total_ms": 69280.087799998
+            },
+            "request_id": "c576bf51-842d-472b-96f1-0e2a4c5e8802"
+        },
+        {
+            "id": "q0006",
+            "question": "What is the maximum value for a gift that is permitted under the Code of Conduct and Ethics?",
+            "ground_truth": "$50",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The maximum value for a gift that is permitted under the Code of Conduct and Ethics is $50. This is specified in the context under the section \"Gifts and Entertainment,\" which states that meals under $50 are permitted. \n\nSource: Code_of_Conduct_Ethics.pdf, Page: 1.",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c3",
+                    "distance": 0.6788192391395569,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "iation is strictly prohibited.\n2.2 Equal Opportunity\n Merit■based hiring and promotion.\n Inclusive interview panels.\n Accommodations for disabilities.\n Annual pay equity reviews.\n3.0 Business Integrity\n3.1 Conflicts of Interest\nDisclosure is required when:\n A family member works for a competitor.\n Outside employment with a vendor.\n Personal investment in a supplier.\n Board service with another company.\n Gift valued over $50.\nProcess:\n1. Complete disclosure form.\n2. Submit to Ethics Officer.\n3. Receive written determination.\n3.2 Gifts and Entertainment\nPermitted:\n Meals under $50.\n P"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c4",
+                    "distance": 0.7067327499389648,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "cer.\n3. Receive written determination.\n3.2 Gifts and Entertainment\nPermitted:\n Meals under $50.\n Promotional items (logo only).\n Attendance at public events.\n Reasonable business travel.\nProhibited:\n Cash or equivalents.\n Gifts during bidding.\n Personal favors.\n Anything that influences decisions.\n3.3 Anti■Corruption"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c1",
+                    "distance": 0.755386471748352,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "Code of Conduct Ethics\nCapulus Technologies - Code of Conduct and Ethics\nVersion 5.1 - Effective January 1, 2024\n1.0 Our Commitment to Ethics\n1.1 Core Principles\n Integrity Without Compromise - We act honestly and ethically in every situation.\n Respect for All - We value diversity and treat everyone with dignity.\n Accountability for Actions - We own our decisions and their outcomes.\n Transparency in Operations - We communicate openly and honestly.\n Excellence in Execution - We strive for the highest quality in everything we do.\n1.2 Scope\nThis Code applies to all employees (full■time, part"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2162.0325999101624,
+                "chroma_ms": 3.526700078509748,
+                "retrieval_total_ms": 2165.577400010079,
+                "prompt_ms": 0.027099973522126675,
+                "llm_ms": 62864.029700052924,
+                "total_ms": 65029.669699957594
+            },
+            "request_id": "998d9068-1628-4807-9f40-9f9d3f021092"
+        },
+        {
+            "id": "q0007",
+            "question": "What are the prohibited payments mentioned in the Code of Conduct?",
+            "ground_truth": "Bribes or kickbacks.",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The prohibited payments mentioned in the Code of Conduct include:\n\n- Cash or equivalents.\n- Gifts during bidding.\n- Personal favors.\n- Anything that influences decisions.\n\nThese prohibitions are outlined in the \"Gifts and Entertainment\" section of the Code of Conduct Ethics document (Source 1 and Source 2).",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c4",
+                    "distance": 0.7136184573173523,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "cer.\n3. Receive written determination.\n3.2 Gifts and Entertainment\nPermitted:\n Meals under $50.\n Promotional items (logo only).\n Attendance at public events.\n Reasonable business travel.\nProhibited:\n Cash or equivalents.\n Gifts during bidding.\n Personal favors.\n Anything that influences decisions.\n3.3 Anti■Corruption"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c3",
+                    "distance": 0.7682191729545593,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "iation is strictly prohibited.\n2.2 Equal Opportunity\n Merit■based hiring and promotion.\n Inclusive interview panels.\n Accommodations for disabilities.\n Annual pay equity reviews.\n3.0 Business Integrity\n3.1 Conflicts of Interest\nDisclosure is required when:\n A family member works for a competitor.\n Outside employment with a vendor.\n Personal investment in a supplier.\n Board service with another company.\n Gift valued over $50.\nProcess:\n1. Complete disclosure form.\n2. Submit to Ethics Officer.\n3. Receive written determination.\n3.2 Gifts and Entertainment\nPermitted:\n Meals under $50.\n P"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c3",
+                    "distance": 0.7711326479911804,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2,
+                    "text": "e action.\n5.3 Non■Retaliation Policy\nCapulus strictly prohibits retaliation against anyone who reports a concern in good faith.\n6.0 Consequences of Violations\n6.1 Disciplinary Actions\n Verbal warning.\n Written warning.\n Remedial training.\n Suspension without pay.\n Termination of employment.\n Legal action if warranted.\n6.2 Factors Considered\n Severity and impact.\n Intent and knowledge.\n History of violations.\n Cooperation in investigation.\n---\nAcknowledgment\nI have received, read, and understand the Capulus Code of Conduct and Ethics. I agree to comply with\nall provisions.\nEmployee Si"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2152.2852999623865,
+                "chroma_ms": 3.1472999835386872,
+                "retrieval_total_ms": 2155.4473999422044,
+                "prompt_ms": 0.02359994687139988,
+                "llm_ms": 56561.45280005876,
+                "total_ms": 58716.95669996552
+            },
+            "request_id": "5712bc70-33c0-46b1-91b1-1fac3c12d237"
+        },
+        {
+            "id": "q0008",
+            "question": "What is the email address for reporting ethics concerns to the Ethics Officer?",
+            "ground_truth": "ethics@capulus.com",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The email address for reporting ethics concerns to the Ethics Officer is ethics@capulus.com. This information is found in SOURCE 2, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.6002309322357178,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Officer (DPO): Oversees compliance with data privacy laws.\n AI Ethics Board: Reviews high■risk AI projects; members include legal, engineering, and external\nadvisors.\n6.0 Breach Reporting\nAny suspected data breach or ethical violation must be reported immediately to privacy@capulus.com\nand the AI Ethics Board.\n---"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c2",
+                    "distance": 0.6113697290420532,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2,
+                    "text": "need■to■know basis.\n Delete when no longer needed.\n4.2 Customer Information\n Never share without consent.\n Use only for intended purpose.\n Report breaches immediately.\n5.0 Reporting Violations\n5.1 Reporting Channels\n Manager or HR.\n Ethics Officer: ethics@capulus.com\n Ethics Hotline: 1-888-ETH-ICS4\n Online portal: ethics.capulus.com\n5.2 Investigation Process\n1. Report received within 24h.\n2. Initial assessment (3 days).\n3. Fact■finding (30 days typical).\n4. Findings report.\n5. Corrective action.\n5.3 Non■Retaliation Policy\nCapulus strictly prohibits retaliation against anyone who repor"
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c5",
+                    "distance": 0.664909303188324,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1,
+                    "text": "alues:\n1. Innovation: We push boundaries.\n2. Integrity: We do the right thing.\n3. Inclusion: Every voice matters.\n4. Impact: We deliver results that matter.\nProhibited Conduct:\n Harassment or discrimination of any kind.\n Conflicts of interest without disclosure.\n Misuse of company resources.\n Confidential information sharing.\nReporting Violations:\n Contact HR at hr@capulus.com\n Anonymous Ethics Hotline: 1■888■CAPULUS\n All reports investigated confidentially."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2176.258699968457,
+                "chroma_ms": 7.975499960593879,
+                "retrieval_total_ms": 2184.265499934554,
+                "prompt_ms": 0.055299955420196056,
+                "llm_ms": 51887.88479997311,
+                "total_ms": 54072.26729998365
+            },
+            "request_id": "aa238ff5-fdf3-4c19-b888-7b68f58d029b"
+        },
+        {
+            "id": "q0009",
+            "question": "What is the copyright notice for the Code of Conduct Ethics document?",
+            "ground_truth": "© 2024 Capulus Technologies. All rights reserved.",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                }
+            ],
+            "type": "answerable",
+            "answer": "The copyright notice for the Code of Conduct Ethics document is not available in the provided company documents.",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c1",
+                    "distance": 0.628546953201294,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "Code of Conduct Ethics\nCapulus Technologies - Code of Conduct and Ethics\nVersion 5.1 - Effective January 1, 2024\n1.0 Our Commitment to Ethics\n1.1 Core Principles\n Integrity Without Compromise - We act honestly and ethically in every situation.\n Respect for All - We value diversity and treat everyone with dignity.\n Accountability for Actions - We own our decisions and their outcomes.\n Transparency in Operations - We communicate openly and honestly.\n Excellence in Execution - We strive for the highest quality in everything we do.\n1.2 Scope\nThis Code applies to all employees (full■time, part"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c4",
+                    "distance": 0.7000454664230347,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2,
+                    "text": "nderstand the Capulus Code of Conduct and Ethics. I agree to comply with\nall provisions.\nEmployee Signature: ________________________ Date: ______________"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.8686680793762207,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Officer (DPO): Oversees compliance with data privacy laws.\n AI Ethics Board: Reviews high■risk AI projects; members include legal, engineering, and external\nadvisors.\n6.0 Breach Reporting\nAny suspected data breach or ethical violation must be reported immediately to privacy@capulus.com\nand the AI Ethics Board.\n---"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2179.804699961096,
+                "chroma_ms": 7.621700060553849,
+                "retrieval_total_ms": 2187.4574000248685,
+                "prompt_ms": 0.05350005812942982,
+                "llm_ms": 36706.892500049435,
+                "total_ms": 38894.471700070426
+            },
+            "request_id": "ff79de41-5784-41f1-951f-7c12cd01ff68"
+        },
+        {
+            "id": "q0010",
+            "question": "Which company owns the rights to the Code of Conduct Ethics document?",
+            "ground_truth": "Capulus Technologies",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                }
+            ],
+            "type": "answerable",
+            "answer": "The company that owns the rights to the Code of Conduct Ethics document is Capulus Technologies. This is indicated in the document \"Code_of_Conduct_Ethics.pdf\" on page 1, where it states \"Capulus Technologies - Code of Conduct and Ethics.\" \n\nSource: Code_of_Conduct_Ethics.pdf, Page 1.",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c1",
+                    "distance": 0.516659140586853,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "Code of Conduct Ethics\nCapulus Technologies - Code of Conduct and Ethics\nVersion 5.1 - Effective January 1, 2024\n1.0 Our Commitment to Ethics\n1.1 Core Principles\n Integrity Without Compromise - We act honestly and ethically in every situation.\n Respect for All - We value diversity and treat everyone with dignity.\n Accountability for Actions - We own our decisions and their outcomes.\n Transparency in Operations - We communicate openly and honestly.\n Excellence in Execution - We strive for the highest quality in everything we do.\n1.2 Scope\nThis Code applies to all employees (full■time, part"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c4",
+                    "distance": 0.6226556301116943,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2,
+                    "text": "nderstand the Capulus Code of Conduct and Ethics. I agree to comply with\nall provisions.\nEmployee Signature: ________________________ Date: ______________"
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c5",
+                    "distance": 0.7274506688117981,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1,
+                    "text": "alues:\n1. Innovation: We push boundaries.\n2. Integrity: We do the right thing.\n3. Inclusion: Every voice matters.\n4. Impact: We deliver results that matter.\nProhibited Conduct:\n Harassment or discrimination of any kind.\n Conflicts of interest without disclosure.\n Misuse of company resources.\n Confidential information sharing.\nReporting Violations:\n Contact HR at hr@capulus.com\n Anonymous Ethics Hotline: 1■888■CAPULUS\n All reports investigated confidentially."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2178.7538999924436,
+                "chroma_ms": 8.014099905267358,
+                "retrieval_total_ms": 2186.7991000181064,
+                "prompt_ms": 0.053200055845081806,
+                "llm_ms": 58597.35980001278,
+                "total_ms": 60784.27359997295
+            },
+            "request_id": "ebd10acb-e029-442c-bd01-6165fd7c4704"
+        },
+        {
+            "id": "q0011",
+            "question": "What are the key components of the Standard Engagement model for commercial enterprises?",
+            "ground_truth": "Kick-off, implementation plan, training, go-live support, and quarterly business reviews.",
+            "expected_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The key components of the Standard Engagement model for commercial enterprises, as outlined in the provided context, are:\n\n- Kick-off\n- Implementation plan\n- Training\n- Go-live support\n- Quarterly business reviews\n\nThese components are detailed in **Customer_Engagement_Solution_Delivery.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c1",
+                    "distance": 0.7024060487747192,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "Customer Engagement Solution Delivery\nCapulus Technologies - Customer Engagement and Solution Delivery Policy\nVersion 1.0 - Effective January 1, 2024\n1.0 Purpose\nTo ensure consistent, high■quality engagement with our clients (police departments, city governments,\nenterprises) and successful deployment of Capulus solutions.\n2.0 Engagement Models\n2.1 Standard Engagement\n For commercial enterprises adopting Vision AI.\n Includes: Kick■off, implementation plan, training, go■live support, quarterly business reviews.\n2.2 Public Sector Engagement\n For law enforcement and smart city projects.\n Incl"
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c3",
+                    "distance": 0.8768766522407532,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "■prem).\n Data integration (e.g., CCTV feeds, crime records).\n Model customization (if needed).\n User acceptance testing (UAT) with client personnel.\n Deliverables: Configuration documents, test reports.\n3.3 Training and Change Management\n Audience: End■users (officers, city planners), IT staff, administrators.\n Materials: User manuals, quick reference guides, e■learning modules.\n Follow■up: 30■day post■training check■in.\n3.4 Go■Live and Hypercare\n Go■Live: Phased rollout or big bang based on risk assessment.\n Hypercare: Dedicated support for first 2 weeks; daily stand■up meetings.\n3.5"
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c2",
+                    "distance": 0.8865519165992737,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "business reviews.\n2.2 Public Sector Engagement\n For law enforcement and smart city projects.\n Includes additional steps: data privacy workshops, community stakeholder meetings, compliance\naudits, and ongoing ethics oversight.\n3.0 Solution Delivery Process\n3.1 Kick■off and Planning\n Participants: Capulus project team, client stakeholders.\n Deliverables: Project charter, communication plan, risk register, data sharing agreement.\n3.2 Implementation\n Activities:\n Environment setup (cloud or on■prem).\n Data integration (e.g., CCTV feeds, crime records).\n Model customization (if needed).\n U"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2183.4136999677867,
+                "chroma_ms": 7.489599986001849,
+                "retrieval_total_ms": 2190.9325999440625,
+                "prompt_ms": 0.05589995998889208,
+                "llm_ms": 63078.96650000475,
+                "total_ms": 65270.01900004689
+            },
+            "request_id": "84b0837a-3732-429d-a0b0-fc550068684d"
+        },
+        {
+            "id": "q0012",
+            "question": "What is the minimum required customer satisfaction score (CSAT) at 90 days post-launch according to the success criteria?",
+            "ground_truth": "≥ 4.5/5",
+            "expected_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The minimum required customer satisfaction score (CSAT) at 90 days post-launch according to the success criteria is ≥ 4.5/5. This is specified in **Customer_Engagement_Solution_Delivery.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.2922595739364624,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "and testing.\n Comply with all data protection laws.\n5.0 Success Criteria\n Customer Satisfaction Score (CSAT): ≥ 4.5/5 at 90 days post■launch.\n System Uptime: ≥ 99.5% (excluding scheduled maintenance)."
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c3",
+                    "distance": 0.6436898112297058,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "s assessment results.\n Gate: Code freeze and pre■launch security review.\n2.4 Pilot / Limited Deployment\n Activities: Deploy to a small set of real users (e.g., one police district), collect feedback, monitor\nperformance.\n Deliverables: Pilot evaluation report, incident log.\n Gate: Pilot success review; decision to scale.\n2.5 General Availability (GA)\n Activities: Full deployment, marketing launch, user training.\n Deliverables: GA release notes, monitoring dashboards.\n Gate: Post■launch review at 30/60/90 days.\n2.6 Maintenance and Retirement\n Activities: Ongoing support, patches, featur"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p2_c1",
+                    "distance": 0.650604248046875,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2,
+                    "text": "5.0 Metrics for Success\n Customer adoption rate.\n Model accuracy / precision / recall.\n Time from concept to GA.\n Post■release defect density."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2140.034999931231,
+                "chroma_ms": 3.552700043655932,
+                "retrieval_total_ms": 2143.602699972689,
+                "prompt_ms": 0.0252000754699111,
+                "llm_ms": 44834.28660000209,
+                "total_ms": 46977.9489999637
+            },
+            "request_id": "75fb3818-f4dc-4186-adb7-65a18a05d7d4"
+        },
+        {
+            "id": "q0013",
+            "question": "What is the response time for a High severity issue according to the escalation path?",
+            "ground_truth": "4 hours",
+            "expected_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The response time for a High severity issue according to the escalation path is 4 hours. This information is found in SOURCE 1, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p2_c1",
+                    "distance": 0.41005218029022217,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2,
+                    "text": " Adoption Rate: ≥ 80% of targeted users active within 3 months.\n6.0 Escalation Path\nIssue Severity | Definition | Response Time | Escalation Contact\n| ---------------- | ------------ | --------------- | --------------------- |\nCritical | System down, data breach | 15 min | VP Customer Success\nHigh | Major feature broken | 4 hours | Customer Success Manager\nMedium | Minor bug, question | 2 business days | Support Team\nLow | Enhancement request | 5 business days | Product Manager\n---\nDocument Owner: VP of Customer Success\nLast Updated: December 2023"
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c4",
+                    "distance": 0.7596175670623779,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "d on risk assessment.\n Hypercare: Dedicated support for first 2 weeks; daily stand■up meetings.\n3.5 Ongoing Support and Reviews\n Support Tiers:\n Tier 1: Helpdesk (24/7 for critical systems).\n Tier 2: Technical support.\n Tier 3: Engineering escalation.\n Quarterly Business Review: Review KPIs, roadmap, customer satisfaction.\n4.0 Customer Responsibilities\n Designate a single point of contact.\n Provide necessary data and access in a timely manner.\n Ensure end■user availability for training and testing.\n Comply with all data protection laws.\n5.0 Success Criteria\n Customer Satisfaction Sc"
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.7974060773849487,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "and testing.\n Comply with all data protection laws.\n5.0 Success Criteria\n Customer Satisfaction Score (CSAT): ≥ 4.5/5 at 90 days post■launch.\n System Uptime: ≥ 99.5% (excluding scheduled maintenance)."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2191.022500046529,
+                "chroma_ms": 7.486199960112572,
+                "retrieval_total_ms": 2198.540300014429,
+                "prompt_ms": 0.05000003147870302,
+                "llm_ms": 45944.319500005804,
+                "total_ms": 48142.99009996466
+            },
+            "request_id": "5a3c5d8c-4329-4c8f-87b5-e140ca0c3c4d"
+        },
+        {
+            "id": "q0014",
+            "question": "Who is the escalation contact for a Critical issue?",
+            "ground_truth": "VP Customer Success",
+            "expected_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The escalation contact for a Critical issue is the VP Customer Success. This information is found in **Customer_Engagement_Solution_Delivery.pdf** on page 2.",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p2_c1",
+                    "distance": 0.6235896944999695,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2,
+                    "text": " Adoption Rate: ≥ 80% of targeted users active within 3 months.\n6.0 Escalation Path\nIssue Severity | Definition | Response Time | Escalation Contact\n| ---------------- | ------------ | --------------- | --------------------- |\nCritical | System down, data breach | 15 min | VP Customer Success\nHigh | Major feature broken | 4 hours | Customer Success Manager\nMedium | Minor bug, question | 2 business days | Support Team\nLow | Enhancement request | 5 business days | Product Manager\n---\nDocument Owner: VP of Customer Success\nLast Updated: December 2023"
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c4",
+                    "distance": 0.8154865503311157,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "d on risk assessment.\n Hypercare: Dedicated support for first 2 weeks; daily stand■up meetings.\n3.5 Ongoing Support and Reviews\n Support Tiers:\n Tier 1: Helpdesk (24/7 for critical systems).\n Tier 2: Technical support.\n Tier 3: Engineering escalation.\n Quarterly Business Review: Review KPIs, roadmap, customer satisfaction.\n4.0 Customer Responsibilities\n Designate a single point of contact.\n Provide necessary data and access in a timely manner.\n Ensure end■user availability for training and testing.\n Comply with all data protection laws.\n5.0 Success Criteria\n Customer Satisfaction Sc"
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c3",
+                    "distance": 0.8582645654678345,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1,
+                    "text": "elopment Team: 5-7 members, cross■functional.\n Stakeholders: Provide feedback at reviews.\n3.0 Project Documentation\n3.1 Required Documents by Phase\nInitiation:\n Project Charter (mandatory)\n Business Case\n Stakeholder Register\nPlanning:\n Project Plan (mandatory)\n Risk Register (mandatory)\n Communication Plan\n Budget Approval\nExecution:\n Status Reports (weekly)\n Issue Log\n Change Requests\n Meeting Minutes\nClosure:\n Lessons Learned (mandatory)"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2182.2719000047073,
+                "chroma_ms": 6.606000009924173,
+                "retrieval_total_ms": 2188.908700016327,
+                "prompt_ms": 0.04730001091957092,
+                "llm_ms": 49854.55849999562,
+                "total_ms": 52043.572399998084
+            },
+            "request_id": "3cda1568-b229-471f-99ca-7cd94d024efe"
+        },
+        {
+            "id": "q0015",
+            "question": "What is the email address where data privacy requests should be submitted?",
+            "ground_truth": "privacy@capulus.com",
+            "expected_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The email address where data privacy requests should be submitted is **privacy@capulus.com**. This is specified in SOURCE 2 and SOURCE 3 of the provided context.",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c2",
+                    "distance": 0.6373787522315979,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Privacy Principles\n3.1 Lawful Basis\n We process personal data only with a valid legal basis (consent, contract, legal obligation, etc.).\n For law enforcement data, we comply with all applicable regulations (e.g., local policing data laws).\n3.2 Data Minimization\n Collect only the data necessary for the specified purpose.\n Anonymize or pseudonymize data whenever possible.\n3.3 Storage and Retention\n Personal data must be encrypted at rest and in transit.\n Retention periods are defined per data category and enforced via automated deletion.\n3.4 Data Subject Rights\n We honor rights to access"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.6577728390693665,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Officer (DPO): Oversees compliance with data privacy laws.\n AI Ethics Board: Reviews high■risk AI projects; members include legal, engineering, and external\nadvisors.\n6.0 Breach Reporting\nAny suspected data breach or ethical violation must be reported immediately to privacy@capulus.com\nand the AI Ethics Board.\n---"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c3",
+                    "distance": 0.7068506479263306,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "ta category and enforced via automated deletion.\n3.4 Data Subject Rights\n We honor rights to access, rectification, erasure, and portability.\n Requests must be submitted to privacy@capulus.com and processed within 30 days.\n4.0 AI Ethics Principles\n4.1 Fairness and Non■Discrimination\n AI models must be tested for bias across race, gender, age, and other protected attributes.\n Disparate impact analysis is mandatory before deployment.\n4.2 Transparency and Explainability\n Decisions made or supported by AI must be explainable to end■users (e.g., police officers, city\nplanners).\n For critical"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2188.2207000162452,
+                "chroma_ms": 7.6009000185877085,
+                "retrieval_total_ms": 2195.8521000342444,
+                "prompt_ms": 0.051999930292367935,
+                "llm_ms": 49894.42070003133,
+                "total_ms": 52090.38690000307
+            },
+            "request_id": "012af299-40f5-44e3-b091-d03b30b7a111"
+        },
+        {
+            "id": "q0016",
+            "question": "Who is responsible for overseeing compliance with data privacy laws at Capulus Technologies?",
+            "ground_truth": "Data Protection Officer (DPO)",
+            "expected_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The Data Protection Officer (DPO) is responsible for overseeing compliance with data privacy laws at Capulus Technologies. This is stated in **Data_Privacy_AI_Ethics_Policy.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.4615064859390259,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Officer (DPO): Oversees compliance with data privacy laws.\n AI Ethics Board: Reviews high■risk AI projects; members include legal, engineering, and external\nadvisors.\n6.0 Breach Reporting\nAny suspected data breach or ethical violation must be reported immediately to privacy@capulus.com\nand the AI Ethics Board.\n---"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c1",
+                    "distance": 0.46766021847724915,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Data Privacy AI Ethics Policy\nCapulus Technologies - Data Privacy and AI Ethics Policy\nVersion 1.0 - Effective January 1, 2024\n1.0 Purpose\nCapulus Technologies is committed to protecting personal data and ensuring that our AI solutions\n(Smart Policing, Smart Cities, Vision AI) are developed and deployed ethically, transparently, and\nwithout bias.\n2.0 Scope\nThis policy applies to all employees, contractors, and partners who handle personal data or develop AI\nsystems on behalf of Capulus.\n3.0 Data Privacy Principles\n3.1 Lawful Basis\n We process personal data only with a valid legal basis (conse"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p3_c1",
+                    "distance": 0.5491326451301575,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3,
+                    "text": "© 2024 Capulus Technologies. All rights reserved."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2205.567799974233,
+                "chroma_ms": 7.028799969702959,
+                "retrieval_total_ms": 2212.6246000407264,
+                "prompt_ms": 0.04870002157986164,
+                "llm_ms": 42344.19860003982,
+                "total_ms": 44556.93980003707
+            },
+            "request_id": "b29abc80-ce74-4724-9422-e3a46d254c5a"
+        },
+        {
+            "id": "q0017",
+            "question": "How often is the Data Privacy AI Ethics Policy reviewed?",
+            "ground_truth": "Annually or after any major regulatory change.",
+            "expected_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The Data Privacy AI Ethics Policy is reviewed quarterly, as stated in the document. \n\n**Source:** Data_Privacy_AI_Ethics_Policy.pdf, Page: 1.",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c4",
+                    "distance": 0.4879276156425476,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "orted by AI must be explainable to end■users (e.g., police officers, city\nplanners).\n For critical decisions, a human■in■the■loop is required.\n4.3 Accountability\n Each AI system has an appointed \"AI Ethics Owner\" responsible for ongoing monitoring.\n Regular ethics reviews are conducted quarterly.\n4.4 Robustness and Security\n AI models must be resilient to adversarial attacks.\n Continuous monitoring for data drift and performance degradation.\n5.0 Roles and Responsibilities\n Data Protection Officer (DPO): Oversees compliance with data privacy laws.\n AI Ethics Board: Reviews high■risk AI p"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.5184808373451233,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Officer (DPO): Oversees compliance with data privacy laws.\n AI Ethics Board: Reviews high■risk AI projects; members include legal, engineering, and external\nadvisors.\n6.0 Breach Reporting\nAny suspected data breach or ethical violation must be reported immediately to privacy@capulus.com\nand the AI Ethics Board.\n---"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c1",
+                    "distance": 0.5322700142860413,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Data Privacy AI Ethics Policy\nCapulus Technologies - Data Privacy and AI Ethics Policy\nVersion 1.0 - Effective January 1, 2024\n1.0 Purpose\nCapulus Technologies is committed to protecting personal data and ensuring that our AI solutions\n(Smart Policing, Smart Cities, Vision AI) are developed and deployed ethically, transparently, and\nwithout bias.\n2.0 Scope\nThis policy applies to all employees, contractors, and partners who handle personal data or develop AI\nsystems on behalf of Capulus.\n3.0 Data Privacy Principles\n3.1 Lawful Basis\n We process personal data only with a valid legal basis (conse"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2172.1978000132367,
+                "chroma_ms": 6.660900078713894,
+                "retrieval_total_ms": 2178.881299914792,
+                "prompt_ms": 0.041499966755509377,
+                "llm_ms": 48737.51100001391,
+                "total_ms": 50916.47689999081
+            },
+            "request_id": "cb60754e-f450-4029-9195-92f18f9830d2"
+        },
+        {
+            "id": "q0018",
+            "question": "Under what circumstances is the Data Privacy AI Ethics Policy reviewed in addition to the annual review?",
+            "ground_truth": "After any major regulatory change.",
+            "expected_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The information is not available in the provided company documents.",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.4492320120334625,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Officer (DPO): Oversees compliance with data privacy laws.\n AI Ethics Board: Reviews high■risk AI projects; members include legal, engineering, and external\nadvisors.\n6.0 Breach Reporting\nAny suspected data breach or ethical violation must be reported immediately to privacy@capulus.com\nand the AI Ethics Board.\n---"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c4",
+                    "distance": 0.45771342515945435,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "orted by AI must be explainable to end■users (e.g., police officers, city\nplanners).\n For critical decisions, a human■in■the■loop is required.\n4.3 Accountability\n Each AI system has an appointed \"AI Ethics Owner\" responsible for ongoing monitoring.\n Regular ethics reviews are conducted quarterly.\n4.4 Robustness and Security\n AI models must be resilient to adversarial attacks.\n Continuous monitoring for data drift and performance degradation.\n5.0 Roles and Responsibilities\n Data Protection Officer (DPO): Oversees compliance with data privacy laws.\n AI Ethics Board: Reviews high■risk AI p"
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c1",
+                    "distance": 0.4804016351699829,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1,
+                    "text": "Data Privacy AI Ethics Policy\nCapulus Technologies - Data Privacy and AI Ethics Policy\nVersion 1.0 - Effective January 1, 2024\n1.0 Purpose\nCapulus Technologies is committed to protecting personal data and ensuring that our AI solutions\n(Smart Policing, Smart Cities, Vision AI) are developed and deployed ethically, transparently, and\nwithout bias.\n2.0 Scope\nThis policy applies to all employees, contractors, and partners who handle personal data or develop AI\nsystems on behalf of Capulus.\n3.0 Data Privacy Principles\n3.1 Lawful Basis\n We process personal data only with a valid legal basis (conse"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2225.2525999210775,
+                "chroma_ms": 6.823400035500526,
+                "retrieval_total_ms": 2232.103299931623,
+                "prompt_ms": 0.04910002462565899,
+                "llm_ms": 41627.891700016335,
+                "total_ms": 43860.10179994628
+            },
+            "request_id": "e69e5d34-b2f3-46d6-8030-222261cc2368"
+        },
+        {
+            "id": "q0019",
+            "question": "What are the standard working hours at Capulus Technologies?",
+            "ground_truth": "Monday - Friday, 9:00 AM to 6:00 PM.",
+            "expected_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The standard working hours at Capulus Technologies are Monday - Friday, 9:00 AM to 6:00 PM. This information is outlined in the Employee Handbook 2024 (Document: Employee_Handbook_2024.pdf, Page: 1).",
+            "actual_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c1",
+                    "distance": 0.406244695186615,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1,
+                    "text": "Employee Handbook 2024\nCapulus Technologies - Employee Handbook 2024\nVersion 3.1 - Effective January 1, 2024\nSection 1: Welcome to Capulus\nWelcome to Capulus Technologies! We are a leading innovator in AI■driven solutions for smart\npolicing, smart cities, and vision AI. This handbook outlines the policies, benefits, and expectations that\nwill guide your journey with us.\nSection 2: Working Hours and Attendance\n Standard Work Week: Monday - Friday, 9:00 AM to 6:00 PM.\n Lunch Break: 1 hour (unpaid), flexible between 12:00 PM and 2:00 PM.\n Flex Time: Employees may adjust start time between 8:00"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p3_c1",
+                    "distance": 0.618985116481781,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3,
+                    "text": "© 2024 Capulus Technologies. All rights reserved."
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c2",
+                    "distance": 0.640638530254364,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "e highest quality in everything we do.\n1.2 Scope\nThis Code applies to all employees (full■time, part■time, temporary), board members, contractors,\nconsultants, subsidiaries, joint ventures, and business partners when representing Capulus.\n2.0 Workplace Conduct\n2.1 Respectful Workplace\nZero tolerance for harassment or discrimination based on race, color, ethnicity, religion, creed, gender,\nsexual orientation, age, disability, or veteran status. Any incident must be reported within 24 hours;\nretaliation is strictly prohibited.\n2.2 Equal Opportunity\n Merit■based hiring and promotion.\n Inclusive"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2154.6330000273883,
+                "chroma_ms": 7.547000073827803,
+                "retrieval_total_ms": 2162.211099988781,
+                "prompt_ms": 0.06029999349266291,
+                "llm_ms": 52496.365499915555,
+                "total_ms": 54658.69930002373
+            },
+            "request_id": "24fbf918-b5da-4575-90cf-2be5f7201f5b"
+        },
+        {
+            "id": "q0020",
+            "question": "How many days of annual leave are accrued per month?",
+            "ground_truth": "2 days per month.",
+            "expected_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "According to the provided context, annual leave is accrued at 2 days per month. \n\n**Source:** Employee_Handbook_2024.pdf, Page: 1.",
+            "actual_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c2",
+                    "distance": 0.6509066820144653,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1,
+                    "text": "d), flexible between 12:00 PM and 2:00 PM.\n Flex Time: Employees may adjust start time between 8:00-10:00 AM with manager approval.\n Remote Work: Hybrid model - 3 days in office, 2 days remote after probation. (Some roles supporting\nlaw enforcement clients may require on■site presence.)\n Attendance Tracking: All employees must log hours in the HR system.\nSection 3: Leave Policies\n Annual Leave: 24 days per year, accrued at 2 days per month. Maximum carryover: 5 days.\n Sick Leave: 12 paid sick days per year. Doctor's note required for 3+ consecutive days. Mental health\ndays count as sick l"
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c3",
+                    "distance": 0.6904675960540771,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1,
+                    "text": "ck days per year. Doctor's note required for 3+ consecutive days. Mental health\ndays count as sick leave.\n Parental Leave: Primary caregiver - 18 weeks fully paid; secondary caregiver - 6 weeks fully paid.\nAdditional unpaid leave up to 6 months.\n Bereavement Leave: Immediate family - 7 paid days; extended family - 3 paid days.\nSection 4: Compensation and Benefits\n Salary Payments: Semi■monthly on the 1st and 15th. Direct deposit required.\n Health Insurance: 100% premium covered by Capulus.\n Dental & Vision: 85% premium covered.\n 401(k) Match: 100% up to 5% of salary.\n Annual Bonus: Up t"
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.7960706949234009,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2,
+                    "text": "Section 7: Performance Reviews\n 90■Day Review: For new hires.\n Annual Reviews: Every December.\n Quarterly Check■ins: Informal progress discussions.\n Promotion Cycles: March and September."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2159.0954000130296,
+                "chroma_ms": 7.86140002310276,
+                "retrieval_total_ms": 2166.990099940449,
+                "prompt_ms": 0.05439994856715202,
+                "llm_ms": 51191.56589999329,
+                "total_ms": 53358.67630003486
+            },
+            "request_id": "73f83347-f01e-4a03-952a-f7baf26d35bb"
+        },
+        {
+            "id": "q0021",
+            "question": "When are annual performance reviews conducted?",
+            "ground_truth": "Every December.",
+            "expected_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "Annual performance reviews are conducted every December, as stated in the Employee_Handbook_2024.pdf on page 2.",
+            "actual_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.500456690788269,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2,
+                    "text": "Section 7: Performance Reviews\n 90■Day Review: For new hires.\n Annual Reviews: Every December.\n Quarterly Check■ins: Informal progress discussions.\n Promotion Cycles: March and September."
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p2_c1",
+                    "distance": 0.7004252076148987,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2,
+                    "text": "Review Cycle: This policy is reviewed annually or after any major regulatory change."
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c3",
+                    "distance": 0.8885356783866882,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1,
+                    "text": "es).\n2.3 Access Reviews\n Monthly: Privileged access review.\n Quarterly: Department access review.\n Immediate: Termination access removal.\n3.0 Data Classification\n3.1 Data Categories\nClassification | Description | Examples\n| ---------------- | ------------- | ---------- |\nPublic | Non■sensitive, intended for public | Marketing materials, press releases\nInternal | Business data, not for public | Internal policies, org charts\nConfidential | Sensitive business data | Financial results, customer lists\nRestricted | Highly sensitive, regulated | PII, trade secrets, law enforcement case data\n3.2 Da"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2139.0929999761283,
+                "chroma_ms": 6.485099904239178,
+                "retrieval_total_ms": 2145.6059999763966,
+                "prompt_ms": 0.045599997974932194,
+                "llm_ms": 33166.69609991368,
+                "total_ms": 35312.4039999675
+            },
+            "request_id": "507b9915-5352-4b92-9586-656f24441ea0"
+        },
+        {
+            "id": "q0022",
+            "question": "What is the purpose of the 90-day review?",
+            "ground_truth": "For new hires.",
+            "expected_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The purpose of the 90-day review is for new hires, as stated in the Employee_Handbook_2024.pdf on page 2.",
+            "actual_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.592686116695404,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2,
+                    "text": "Section 7: Performance Reviews\n 90■Day Review: For new hires.\n Annual Reviews: Every December.\n Quarterly Check■ins: Informal progress discussions.\n Promotion Cycles: March and September."
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p2_c1",
+                    "distance": 0.800669252872467,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2,
+                    "text": "Review Cycle: This policy is reviewed annually or after any major regulatory change."
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.8473829627037048,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "and testing.\n Comply with all data protection laws.\n5.0 Success Criteria\n Customer Satisfaction Score (CSAT): ≥ 4.5/5 at 90 days post■launch.\n System Uptime: ≥ 99.5% (excluding scheduled maintenance)."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2171.0826999042183,
+                "chroma_ms": 6.552000064402819,
+                "retrieval_total_ms": 2177.656199899502,
+                "prompt_ms": 0.034899916499853134,
+                "llm_ms": 31108.134599984623,
+                "total_ms": 33285.866799997166
+            },
+            "request_id": "d0fd2cc3-dc16-46ec-8868-314f89768ac6"
+        },
+        {
+            "id": "q0023",
+            "question": "What is the maximum reimbursement amount for a home office setup?",
+            "ground_truth": "One-time $500 reimbursement.",
+            "expected_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The maximum reimbursement amount for a home office setup is one-time $500, as stated in the provided context. \n\nSource: Financial_Policies_Procedures.pdf, Page: 1.",
+            "actual_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p1_c4",
+                    "distance": 0.6565442681312561,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1,
+                    "text": "rmediate size maximum.\n Personal vehicle: $0.70/mile reimbursement.\n3.0 Procurement Policy\n3.1 Purchase Approvals\n Under $2,500: Employee with budget approval.\n $2,500 - $25,000: Requires 2 quotes + manager approval.\n $25,000 - $100,000: Requires 3 quotes + department head."
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p1_c2",
+                    "distance": 0.7260534763336182,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1,
+                    "text": "0 | Direct Manager\n$500 – $5,000 | Department Head\n$5,000 – $25,000 | VP + Finance Director\nOver $25,000 | CFO + CEO\n1.3 Allowable Expenses\n Client entertainment: Up to $150 per person.\n Team meals: Up to $75 per person.\n Home office setup: One■time $500 reimbursement.\n Professional development: $2,000 annual limit.\n2.0 Travel Policy\n2.1 Air Travel\n Domestic flights under 4 hours: Economy class.\n Domestic flights over 4 hours: Premium economy allowed.\n International flights: Business class for flights over 8 hours.\n Book at least 14 days in advance for best rates.\n2.2 Accommodation\n M"
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c2",
+                    "distance": 0.7715579271316528,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2,
+                    "text": "ards reported immediately.\n4.3 Limits\n Standard: $5,000 monthly limit.\n Managers: $10,000 monthly limit.\n Directors: $25,000 monthly limit.\n VP+: $50,000 monthly limit."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2187.14620009996,
+                "chroma_ms": 7.6898999977856874,
+                "retrieval_total_ms": 2194.868899998255,
+                "prompt_ms": 0.0619000056758523,
+                "llm_ms": 47811.248900019564,
+                "total_ms": 50006.25109998509
+            },
+            "request_id": "c4f93529-ed0f-48c3-ac6c-a1552fe0acb3"
+        },
+        {
+            "id": "q0024",
+            "question": "What is the daily alcohol reimbursement limit for meals and incidentals?",
+            "ground_truth": "$30/day.",
+            "expected_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The daily alcohol reimbursement limit for meals and incidentals is not specified in the provided company documents. \n\nInformation is not available in the provided company documents.",
+            "actual_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c2",
+                    "distance": 0.677824854850769,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2,
+                    "text": "ards reported immediately.\n4.3 Limits\n Standard: $5,000 monthly limit.\n Managers: $10,000 monthly limit.\n Directors: $25,000 monthly limit.\n VP+: $50,000 monthly limit."
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c4",
+                    "distance": 0.8195465803146362,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "cer.\n3. Receive written determination.\n3.2 Gifts and Entertainment\nPermitted:\n Meals under $50.\n Promotional items (logo only).\n Attendance at public events.\n Reasonable business travel.\nProhibited:\n Cash or equivalents.\n Gifts during bidding.\n Personal favors.\n Anything that influences decisions.\n3.3 Anti■Corruption"
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p1_c2",
+                    "distance": 0.8485926389694214,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1,
+                    "text": "0 | Direct Manager\n$500 – $5,000 | Department Head\n$5,000 – $25,000 | VP + Finance Director\nOver $25,000 | CFO + CEO\n1.3 Allowable Expenses\n Client entertainment: Up to $150 per person.\n Team meals: Up to $75 per person.\n Home office setup: One■time $500 reimbursement.\n Professional development: $2,000 annual limit.\n2.0 Travel Policy\n2.1 Air Travel\n Domestic flights under 4 hours: Economy class.\n Domestic flights over 4 hours: Premium economy allowed.\n International flights: Business class for flights over 8 hours.\n Book at least 14 days in advance for best rates.\n2.2 Accommodation\n M"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2184.5690000336617,
+                "chroma_ms": 7.263500010594726,
+                "retrieval_total_ms": 2191.891400027089,
+                "prompt_ms": 0.04579999949783087,
+                "llm_ms": 43708.06309999898,
+                "total_ms": 45900.051000062376
+            },
+            "request_id": "5f3fb8a0-fd19-44f3-8afc-5deb13be4c7a"
+        },
+        {
+            "id": "q0025",
+            "question": "What is the monthly credit card limit for a VP or higher position?",
+            "ground_truth": "$50,000",
+            "expected_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The monthly credit card limit for a VP or higher position is $50,000, as stated in SOURCE 1, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c2",
+                    "distance": 0.56883704662323,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2,
+                    "text": "ards reported immediately.\n4.3 Limits\n Standard: $5,000 monthly limit.\n Managers: $10,000 monthly limit.\n Directors: $25,000 monthly limit.\n VP+: $50,000 monthly limit."
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c1",
+                    "distance": 0.6057961583137512,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2,
+                    "text": " Over $100,000: Requires formal RFP process.\n3.2 Vendor Requirements\n All vendors must complete W■9 form.\n Preferred vendors list available on intranet.\n New vendor setup requires Finance approval.\n4.0 Company Credit Cards\n4.1 Eligibility\n Regular travelers (4+ trips per year).\n Department heads.\n Executive team.\n Must complete credit card training.\n4.2 Usage Guidelines\n Business expenses only.\n Monthly reconciliation by the 10th.\n Personal charges strictly prohibited.\n Lost/stolen cards reported immediately.\n4.3 Limits\n Standard: $5,000 monthly limit.\n Managers: $10,000 monthly"
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p1_c2",
+                    "distance": 0.7159122824668884,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1,
+                    "text": "0 | Direct Manager\n$500 – $5,000 | Department Head\n$5,000 – $25,000 | VP + Finance Director\nOver $25,000 | CFO + CEO\n1.3 Allowable Expenses\n Client entertainment: Up to $150 per person.\n Team meals: Up to $75 per person.\n Home office setup: One■time $500 reimbursement.\n Professional development: $2,000 annual limit.\n2.0 Travel Policy\n2.1 Air Travel\n Domestic flights under 4 hours: Economy class.\n Domestic flights over 4 hours: Premium economy allowed.\n International flights: Business class for flights over 8 hours.\n Book at least 14 days in advance for best rates.\n2.2 Accommodation\n M"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2201.1008999543265,
+                "chroma_ms": 6.6095000365749,
+                "retrieval_total_ms": 2207.75419997517,
+                "prompt_ms": 0.0366999302059412,
+                "llm_ms": 52152.195700095035,
+                "total_ms": 54360.02949997783
+            },
+            "request_id": "6f6f1c18-e334-4b63-9157-d3960a523030"
+        },
+        {
+            "id": "q0026",
+            "question": "What is required for a new vendor to be set up in the company?",
+            "ground_truth": "Finance approval",
+            "expected_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "To set up a new vendor in the company, the following requirements are necessary:\n\n1. All vendors must complete the W-9 form.  \n   **Source:** Financial_Policies_Procedures.pdf, Page 2  \n\n2. New vendor setup requires Finance approval.  \n   **Source:** Financial_Policies_Procedures.pdf, Page 2  \n\n3. Depending on the risk tier, additional requirements may apply:\n   - **Tier 1 Vendors:** Basic vendor information (W-9, business license).  \n     **Source:** Vendor_ThirdParty_Risk_Management.pdf, Page 1  \n   - **Tier 2 Vendors:** Tier 1 requirements plus a security questionnaire, review of the vendor's privacy policy, and a business continuity/disaster recovery summary.  \n     **Source:** Vendor_ThirdParty_Risk_Management.pdf, Page 1  \n   - **Tier 3 Vendors:** Tier 2 requirements plus an on-site audit (or third-party audit report, e.g., SOC2), penetration testing results, and other security measures.  \n     **Source:** Vendor_ThirdParty_Risk_Management.pdf, Page 1  \n\nThe information is not available in the provided company documents regarding specific details about the vendor setup process beyond these requirements.",
+            "actual_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c1",
+                    "distance": 0.7416947484016418,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2,
+                    "text": " Over $100,000: Requires formal RFP process.\n3.2 Vendor Requirements\n All vendors must complete W■9 form.\n Preferred vendors list available on intranet.\n New vendor setup requires Finance approval.\n4.0 Company Credit Cards\n4.1 Eligibility\n Regular travelers (4+ trips per year).\n Department heads.\n Executive team.\n Must complete credit card training.\n4.2 Usage Guidelines\n Business expenses only.\n Monthly reconciliation by the 10th.\n Personal charges strictly prohibited.\n Lost/stolen cards reported immediately.\n4.3 Limits\n Standard: $5,000 monthly limit.\n Managers: $10,000 monthly"
+                },
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c2",
+                    "distance": 0.7784733176231384,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1,
+                    "text": "2 (Moderate Risk): Access to internal non■confidential data (e.g., HR platforms).\n Tier 3 (High Risk): Access to confidential or restricted data (e.g., cloud infrastructure, AI model training\ndata).\n3.0 Due Diligence Requirements\n3.1 Tier 1 Vendors\n Basic vendor information (W■9, business license).\n3.2 Tier 2 Vendors\n Tier 1 requirements plus:\n Security questionnaire.\n Review of vendor's privacy policy.\n Business continuity/disaster recovery summary.\n3.3 Tier 3 Vendors\n Tier 2 requirements plus:\n On■site audit (or third■party audit report e.g., SOC2).\n Penetration testing results.\n C"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c3",
+                    "distance": 0.841895580291748,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1,
+                    "text": "iation is strictly prohibited.\n2.2 Equal Opportunity\n Merit■based hiring and promotion.\n Inclusive interview panels.\n Accommodations for disabilities.\n Annual pay equity reviews.\n3.0 Business Integrity\n3.1 Conflicts of Interest\nDisclosure is required when:\n A family member works for a competitor.\n Outside employment with a vendor.\n Personal investment in a supplier.\n Board service with another company.\n Gift valued over $50.\nProcess:\n1. Complete disclosure form.\n2. Submit to Ethics Officer.\n3. Receive written determination.\n3.2 Gifts and Entertainment\nPermitted:\n Meals under $50.\n P"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2182.3669999139383,
+                "chroma_ms": 8.422699989750981,
+                "retrieval_total_ms": 2190.8260999480262,
+                "prompt_ms": 0.06160000339150429,
+                "llm_ms": 124935.6999999145,
+                "total_ms": 127126.64959998801
+            },
+            "request_id": "d1cd6e0c-9d73-447b-94fb-db6fc3779641"
+        },
+        {
+            "id": "q0027",
+            "question": "What are the password requirements for user authentication according to the IT Security Policy?",
+            "ground_truth": "Strong passwords required with: Minimum 14 characters, at least 1 uppercase letter, at least 1 lowercase letter, at least 1 number, at least 1 special character. Passwords expire every 60 days. Cannot reuse last 12 passwords. Account locks after 3 failed attempts.",
+            "expected_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The password requirements for user authentication according to the IT Security Policy are as follows:\n\n- Minimum 14 characters.\n- At least 1 uppercase letter.\n- At least 1 lowercase letter.\n- At least 1 number.\n- At least 1 special character.\n- Passwords expire every 60 days.\n- Cannot reuse last 12 passwords.\n- Account locks after 3 failed attempts.\n\nThese requirements are specified in **SOURCE 1** and **SOURCE 2**.",
+            "actual_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c1",
+                    "distance": 0.47865864634513855,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1,
+                    "text": "IT Security Policy\nCapulus Technologies - IT Security Policy\nVersion 4.2 - Effective January 1, 2024\n1.0 Policy Overview\nThis policy establishes security requirements for all Capulus information systems, data, and network\nresources. Compliance is mandatory for all employees, contractors, and third parties, especially those\nhandling smart policing and smart city data.\n2.0 Access Control\n2.1 User Authentication\n Strong passwords required with:\n Minimum 14 characters.\n At least 1 uppercase letter.\n At least 1 lowercase letter.\n At least 1 number.\n At least 1 special character.\n Passwords e"
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c2",
+                    "distance": 0.6812109351158142,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1,
+                    "text": "r.\n At least 1 lowercase letter.\n At least 1 number.\n At least 1 special character.\n Passwords expire every 60 days.\n Cannot reuse last 12 passwords.\n Account locks after 3 failed attempts.\n2.2 Multi■Factor Authentication (MFA)\nMFA required for:\n All remote access.\n Administrative accounts.\n Financial systems.\n Email access from new devices.\n Access to any system containing law enforcement data.\nApproved MFA methods: Microsoft Authenticator, Duo Security, hardware tokens (for executives).\n2.3 Access Reviews\n Monthly: Privileged access review.\n Quarterly: Department access review."
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c4",
+                    "distance": 0.7722780108451843,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1,
+                    "text": "ists\nRestricted | Highly sensitive, regulated | PII, trade secrets, law enforcement case data\n3.2 Data Handling Requirements\nAction | Public | Internal | Confidential | Restricted\n| -------- | -------- | ---------- | -------------- | ------------ |\nStorage | Any | Encrypted | Encrypted | Encrypted + Access Logs\nEmail | No restriction | Internal only | Encrypted | Not via email\nPrinting | Allowed | Allowed | Supervised | Prohibited\nCloud Storage | Allowed | Approved only | Prohibited | Prohibited\n4.0 Network Security"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2175.6342999869958,
+                "chroma_ms": 7.964999997057021,
+                "retrieval_total_ms": 2183.623499935493,
+                "prompt_ms": 0.05300005432218313,
+                "llm_ms": 70665.32890009694,
+                "total_ms": 72849.05149997212
+            },
+            "request_id": "baf12810-febf-41a7-b99c-144bbbf88fc0"
+        },
+        {
+            "id": "q0028",
+            "question": "Which systems require Multi-Factor Authentication (MFA) according to the IT Security Policy?",
+            "ground_truth": "All remote access, administrative accounts, financial systems, email access from new devices, and access to any system containing law enforcement data require MFA.",
+            "expected_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "According to the IT Security Policy, Multi-Factor Authentication (MFA) is required for the following systems:\n\n- All remote access.\n- Administrative accounts.\n- Financial systems.\n- Email access from new devices.\n- Access to any system containing law enforcement data.\n\nThese requirements are specified in **SOURCE 1** (Document: IT_Security_Policy.pdf, Page: 1).",
+            "actual_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c2",
+                    "distance": 0.40553706884384155,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1,
+                    "text": "r.\n At least 1 lowercase letter.\n At least 1 number.\n At least 1 special character.\n Passwords expire every 60 days.\n Cannot reuse last 12 passwords.\n Account locks after 3 failed attempts.\n2.2 Multi■Factor Authentication (MFA)\nMFA required for:\n All remote access.\n Administrative accounts.\n Financial systems.\n Email access from new devices.\n Access to any system containing law enforcement data.\nApproved MFA methods: Microsoft Authenticator, Duo Security, hardware tokens (for executives).\n2.3 Access Reviews\n Monthly: Privileged access review.\n Quarterly: Department access review."
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c1",
+                    "distance": 0.5338442325592041,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1,
+                    "text": "IT Security Policy\nCapulus Technologies - IT Security Policy\nVersion 4.2 - Effective January 1, 2024\n1.0 Policy Overview\nThis policy establishes security requirements for all Capulus information systems, data, and network\nresources. Compliance is mandatory for all employees, contractors, and third parties, especially those\nhandling smart policing and smart city data.\n2.0 Access Control\n2.1 User Authentication\n Strong passwords required with:\n Minimum 14 characters.\n At least 1 uppercase letter.\n At least 1 lowercase letter.\n At least 1 number.\n At least 1 special character.\n Passwords e"
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c1",
+                    "distance": 0.7678407430648804,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2,
+                    "text": "4.1 Network Access\n Corporate network: WPA2■Enterprise with 802.1X.\n Guest network: Separate VLAN, internet only.\n VPN required for all remote access.\n Personal devices must use guest network.\n5.0 Device Security\n5.1 Endpoint Requirements\n Full disk encryption (BitLocker/FileVault).\n Anti■virus software updated daily.\n OS patches within 7 days.\n Critical security patches within 24 hours.\n5.2 Mobile Devices\n Screen lock required (max 2 minutes).\n Remote wipe capability enabled.\n No jailbroken/rooted devices.\n Company data can be wiped remotely.\n6.0 Incident Response\n6.1 Reportable I"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2211.4469000371173,
+                "chroma_ms": 7.090099970810115,
+                "retrieval_total_ms": 2218.5674998909235,
+                "prompt_ms": 0.07449998520314693,
+                "llm_ms": 67698.91290005762,
+                "total_ms": 69917.61689994019
+            },
+            "request_id": "64bb6f3e-dc3c-4d92-9b5f-110d36913ce8"
+        },
+        {
+            "id": "q0029",
+            "question": "What is required for remote access to the corporate network?",
+            "ground_truth": "VPN required for all remote access.",
+            "expected_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "To access the corporate network remotely, a **VPN is required**. This is specified in **SOURCE 1 (IT_Security_Policy.pdf, Page 2)** under \"Network Access.\"",
+            "actual_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c1",
+                    "distance": 0.5571529269218445,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2,
+                    "text": "4.1 Network Access\n Corporate network: WPA2■Enterprise with 802.1X.\n Guest network: Separate VLAN, internet only.\n VPN required for all remote access.\n Personal devices must use guest network.\n5.0 Device Security\n5.1 Endpoint Requirements\n Full disk encryption (BitLocker/FileVault).\n Anti■virus software updated daily.\n OS patches within 7 days.\n Critical security patches within 24 hours.\n5.2 Mobile Devices\n Screen lock required (max 2 minutes).\n Remote wipe capability enabled.\n No jailbroken/rooted devices.\n Company data can be wiped remotely.\n6.0 Incident Response\n6.1 Reportable I"
+                },
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c3",
+                    "distance": 0.7410763502120972,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1,
+                    "text": "d activates the plan.\n4.2 Communication\n Internal: Slack #business-continuity channel, email updates.\n External: Customers notified via status page; key clients contacted directly.\n Media: Only designated spokespersons communicate publicly.\n4.3 Recovery Procedures\n IT Systems:\n Failover to secondary data center or cloud region.\n Restore data from encrypted backups (tested quarterly).\n Remote Work: All employees can work remotely if offices are inaccessible.\n Alternative Sites: Pre■arranged co■working spaces in major cities.\n4.4 Resumption and Lessons Learned\n Gradual return to normal"
+                },
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c4",
+                    "distance": 0.7843372821807861,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1,
+                    "text": "ed co■working spaces in major cities.\n4.4 Resumption and Lessons Learned\n Gradual return to normal operations.\n Post■incident review within 30 days; update plan accordingly.\n5.0 Backup Requirements\n Critical data: Backed up every 4 hours, stored in two separate geographic locations.\n Non■critical data: Daily backups.\n Backups are tested monthly for restore capability.\n6.0 Training and Testing\n Tabletop exercises: Twice per year.\n Full■scale drill: Annually.\n New employees receive BC/DR awareness during onboarding.\n---\nPlan Owner: Chief Information Security Officer (CISO)"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2168.748600059189,
+                "chroma_ms": 6.888199946843088,
+                "retrieval_total_ms": 2175.6661999970675,
+                "prompt_ms": 0.05250005051493645,
+                "llm_ms": 54727.3704999825,
+                "total_ms": 56903.14959990792
+            },
+            "request_id": "710dc3e8-0233-4777-9d30-5c29624d2fbc"
+        },
+        {
+            "id": "q0030",
+            "question": "What should be done if a device is lost or stolen?",
+            "ground_truth": "Reported as a lost/stolen device under reportable incidents.",
+            "expected_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "If a device is lost or stolen, the following steps should be taken based on the provided company documents:\n\n1. Immediately contact IT Security: security@capulus.com  \n2. Call the hotline: 1■888■SEC■URITY (24/7)  \n3. Do not power off the affected systems.  \n4. Preserve all evidence.  \n5. Await instructions from the security team.  \n\nAdditionally, the company data on the device can be wiped remotely.  \n\n**Source:** IT_Security_Policy.pdf, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c2",
+                    "distance": 0.5759960412979126,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2,
+                    "text": "lbroken/rooted devices.\n Company data can be wiped remotely.\n6.0 Incident Response\n6.1 Reportable Incidents\n Suspected data breach.\n Lost/stolen device.\n Phishing click with data entry.\n Unauthorized access.\n Malware infection.\n6.2 Reporting Process\n1. Immediately contact IT Security: security@capulus.com\n2. Call hotline: 1■888■SEC■URITY (24/7)\n3. Do not power off affected systems.\n4. Preserve all evidence.\n5. Await security team instructions.\n7.0 Policy Compliance\n7.1 Violations\n First offense: Security awareness training.\n Second offense: Written warning.\n Third offense: Possible te"
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c1",
+                    "distance": 0.8035246729850769,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2,
+                    "text": "4.1 Network Access\n Corporate network: WPA2■Enterprise with 802.1X.\n Guest network: Separate VLAN, internet only.\n VPN required for all remote access.\n Personal devices must use guest network.\n5.0 Device Security\n5.1 Endpoint Requirements\n Full disk encryption (BitLocker/FileVault).\n Anti■virus software updated daily.\n OS patches within 7 days.\n Critical security patches within 24 hours.\n5.2 Mobile Devices\n Screen lock required (max 2 minutes).\n Remote wipe capability enabled.\n No jailbroken/rooted devices.\n Company data can be wiped remotely.\n6.0 Incident Response\n6.1 Reportable I"
+                },
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c4",
+                    "distance": 0.8617296814918518,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1,
+                    "text": "ed co■working spaces in major cities.\n4.4 Resumption and Lessons Learned\n Gradual return to normal operations.\n Post■incident review within 30 days; update plan accordingly.\n5.0 Backup Requirements\n Critical data: Backed up every 4 hours, stored in two separate geographic locations.\n Non■critical data: Daily backups.\n Backups are tested monthly for restore capability.\n6.0 Training and Testing\n Tabletop exercises: Twice per year.\n Full■scale drill: Annually.\n New employees receive BC/DR awareness during onboarding.\n---\nPlan Owner: Chief Information Security Officer (CISO)"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2162.672400008887,
+                "chroma_ms": 7.385100005194545,
+                "retrieval_total_ms": 2170.0895000249147,
+                "prompt_ms": 0.10730000212788582,
+                "llm_ms": 81042.7831999259,
+                "total_ms": 83213.04530010093
+            },
+            "request_id": "74ea479f-6824-496d-9e8f-40ef79f1f82e"
+        },
+        {
+            "id": "q0031",
+            "question": "Which approvals are required for the Design phase of the Product Development Lifecycle?",
+            "ground_truth": "Engineering Lead, Security, AI Ethics",
+            "expected_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The approvals required for the Design phase of the Product Development Lifecycle are Engineering Lead, Security, and AI Ethics, as indicated in the \"Quality Gates and Approvals\" table under the Design phase. \n\nSource: SOURCE 3, Page 1.",
+            "actual_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c1",
+                    "distance": 0.5919511318206787,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "Product Development Lifecycle\nCapulus Technologies - Product Development Lifecycle\nVersion 1.5 - Effective January 1, 2024\n1.0 Overview\nThis document outlines the stages, deliverables, and quality gates for developing AI■powered products\nat Capulus, from ideation to retirement.\n2.0 Lifecycle Phases\n2.1 Discovery and Ideation\n Activities: Market research, customer interviews (law enforcement, city planners), feasibility study.\n Deliverables: Product concept document, initial business case.\n Gate: Concept approval by Product Council.\n2.2 Requirements and Design\n Activities: Define user stori"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c2",
+                    "distance": 0.6136058568954468,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "te: Concept approval by Product Council.\n2.2 Requirements and Design\n Activities: Define user stories, success metrics, data requirements, and ethical considerations.\n Deliverables: PRD (Product Requirements Document), UX prototypes, data sourcing plan.\n Gate: Design review with Engineering, Security, and AI Ethics Board.\n2.3 Development and Testing\n Activities: Agile sprints, continuous integration, unit testing, model training/evaluation.\n Deliverables: Working software, test reports, bias assessment results.\n Gate: Code freeze and pre■launch security review.\n2.4 Pilot / Limited Deploy"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c5",
+                    "distance": 0.6181150078773499,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "a human must\nalways confirm AI recommendations.\n4.0 Quality Gates and Approvals\nPhase | Required Approvals\n| ------- | ------------------- |\nDiscovery | Product Manager + VP Product\nDesign | Engineering Lead, Security, AI Ethics\nDevelopment | QA Lead, Product Owner\nPilot | Customer reference, Legal\nGA | Executive Committee"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2189.7454999852926,
+                "chroma_ms": 8.785099955275655,
+                "retrieval_total_ms": 2198.5625999514014,
+                "prompt_ms": 0.054299947805702686,
+                "llm_ms": 51298.076900071464,
+                "total_ms": 53496.76000000909
+            },
+            "request_id": "f4ff814b-c818-4c8a-8d80-81ce1ecbf919"
+        },
+        {
+            "id": "q0032",
+            "question": "What are the deliverables for the Development and Testing phase?",
+            "ground_truth": "Working software, test reports, bias assessment results",
+            "expected_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The deliverables for the Development and Testing phase are: Working software, test reports, and bias assessment results. These are outlined in SOURCE 1, Page 1.",
+            "actual_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c2",
+                    "distance": 0.6338202953338623,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "te: Concept approval by Product Council.\n2.2 Requirements and Design\n Activities: Define user stories, success metrics, data requirements, and ethical considerations.\n Deliverables: PRD (Product Requirements Document), UX prototypes, data sourcing plan.\n Gate: Design review with Engineering, Security, and AI Ethics Board.\n2.3 Development and Testing\n Activities: Agile sprints, continuous integration, unit testing, model training/evaluation.\n Deliverables: Working software, test reports, bias assessment results.\n Gate: Code freeze and pre■launch security review.\n2.4 Pilot / Limited Deploy"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c1",
+                    "distance": 0.682940661907196,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "Product Development Lifecycle\nCapulus Technologies - Product Development Lifecycle\nVersion 1.5 - Effective January 1, 2024\n1.0 Overview\nThis document outlines the stages, deliverables, and quality gates for developing AI■powered products\nat Capulus, from ideation to retirement.\n2.0 Lifecycle Phases\n2.1 Discovery and Ideation\n Activities: Market research, customer interviews (law enforcement, city planners), feasibility study.\n Deliverables: Product concept document, initial business case.\n Gate: Concept approval by Product Council.\n2.2 Requirements and Design\n Activities: Define user stori"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c3",
+                    "distance": 0.686987578868866,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "s assessment results.\n Gate: Code freeze and pre■launch security review.\n2.4 Pilot / Limited Deployment\n Activities: Deploy to a small set of real users (e.g., one police district), collect feedback, monitor\nperformance.\n Deliverables: Pilot evaluation report, incident log.\n Gate: Pilot success review; decision to scale.\n2.5 General Availability (GA)\n Activities: Full deployment, marketing launch, user training.\n Deliverables: GA release notes, monitoring dashboards.\n Gate: Post■launch review at 30/60/90 days.\n2.6 Maintenance and Retirement\n Activities: Ongoing support, patches, featur"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2157.707400037907,
+                "chroma_ms": 7.266900036484003,
+                "retrieval_total_ms": 2164.9993000319228,
+                "prompt_ms": 0.04039995837956667,
+                "llm_ms": 52207.319600041956,
+                "total_ms": 54372.40460002795
+            },
+            "request_id": "a122001c-160b-4edc-ae4f-a9adbcf6f5de"
+        },
+        {
+            "id": "q0033",
+            "question": "What are the metrics for success listed in the document?",
+            "ground_truth": "Customer adoption rate, Model accuracy / precision / recall, Time from concept to GA, Post-release defect density.",
+            "expected_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The metrics for success listed in the documents are:\n\n1. Customer adoption rate (from **Product_Development_Lifecycle.pdf**, Page 2).\n2. Model accuracy / precision / recall (from **Product_Development_Lifecycle.pdf**, Page 2).\n3. Time from concept to GA (from **Product_Development_Lifecycle.pdf**, Page 2).\n4. Post-release defect density (from **Product_Development_Lifecycle.pdf**, Page 2).\n5. Schedule Variance (SV) (from **Project_Management_Handbook.pdf**, Page 2).\n6. Cost Variance (CV) (from **Project_Management_Handbook.pdf**, Page 2).\n7. ROI/TCO Analysis (from **Project_Management_Handbook.pdf**, Page 2).\n8. Resource Utilization (from **Project_Management_Handbook.pdf**, Page 2).\n9. Quality Metrics (defect rate) (from **Project_Management_Handbook.pdf**, Page 2).\n10. Velocity (from **Project_Management_Handbook.pdf**, Page 2).\n11. Sprint Burndown (from **Project_Management_Handbook.pdf**, Page 2).\n12. Release Burndown (from **Project_Management_Handbook.pdf**, Page 2).\n13. Cumulative Flow (from **Project_Management_Handbook.pdf**, Page 2).\n14. Cycle Time (from **Project_Management_Handbook.pdf**, Page 2).\n15. On-Time Delivery (±10%) (from **Project_Management_Handbook.pdf**, Page 2).\n16. Budget Variance (±5%) (from **Project_Management_Handbook.pdf**, Page 2).\n17. Stakeholder Satisfaction (>4.5/5) (from **Project_Management_Handbook.pdf**, Page 2).\n18. Defect Rate (<3%) (from **Project_Management_Handbook.pdf**, Page 2).\n19. Team Satisfaction (>4.2/5) (from **Project_Management_Handbook.pdf**, Page 2).",
+            "actual_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p2_c1",
+                    "distance": 0.689293384552002,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2,
+                    "text": "5.0 Metrics for Success\n Customer adoption rate.\n Model accuracy / precision / recall.\n Time from concept to GA.\n Post■release defect density."
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p2_c1",
+                    "distance": 0.7225964069366455,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2,
+                    "text": " Final Report\n Handover Documents\n4.0 Project Metrics and KPIs\n4.1 Mandatory Metrics\n Schedule Variance (SV)\n Cost Variance (CV)\n ROI/TCO Analysis\n Resource Utilization\n Quality Metrics (defect rate)\n4.2 Agile Metrics\n Velocity\n Sprint Burndown\n Release Burndown\n Cumulative Flow\n Cycle Time\n4.3 Success Criteria\nCriterion | Target\n| ----------- | -------- |\nOn■Time Delivery | ±10%\nBudget Variance | ±5%\nStakeholder Satisfaction | >4.5/5\nDefect Rate | <3%\nTeam Satisfaction | >4.2/5\n5.0 Risk Management\n5.1 Risk Assessment Matrix\nProbability | Low Impact | Medium Impact | High Impact\n|"
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.8091702461242676,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2,
+                    "text": "Section 7: Performance Reviews\n 90■Day Review: For new hires.\n Annual Reviews: Every December.\n Quarterly Check■ins: Informal progress discussions.\n Promotion Cycles: March and September."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2178.2083000289276,
+                "chroma_ms": 27.462300029583275,
+                "retrieval_total_ms": 2205.704800086096,
+                "prompt_ms": 0.0591999851167202,
+                "llm_ms": 164517.32099999208,
+                "total_ms": 166723.15269999672
+            },
+            "request_id": "43f6e41e-2c47-4cfd-8732-14972dc8ce21"
+        },
+        {
+            "id": "q0034",
+            "question": "Which metric measures how quickly a product moves from concept to general availability?",
+            "ground_truth": "Time from concept to GA.",
+            "expected_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The metric that measures how quickly a product moves from concept to general availability is \"Time from concept to GA.\" This is explicitly mentioned in SOURCE 1, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p2_c1",
+                    "distance": 0.5455480813980103,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2,
+                    "text": "5.0 Metrics for Success\n Customer adoption rate.\n Model accuracy / precision / recall.\n Time from concept to GA.\n Post■release defect density."
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p2_c1",
+                    "distance": 0.7427346706390381,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2,
+                    "text": " Adoption Rate: ≥ 80% of targeted users active within 3 months.\n6.0 Escalation Path\nIssue Severity | Definition | Response Time | Escalation Contact\n| ---------------- | ------------ | --------------- | --------------------- |\nCritical | System down, data breach | 15 min | VP Customer Success\nHigh | Major feature broken | 4 hours | Customer Success Manager\nMedium | Minor bug, question | 2 business days | Support Team\nLow | Enhancement request | 5 business days | Product Manager\n---\nDocument Owner: VP of Customer Success\nLast Updated: December 2023"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c3",
+                    "distance": 0.7457721829414368,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "s assessment results.\n Gate: Code freeze and pre■launch security review.\n2.4 Pilot / Limited Deployment\n Activities: Deploy to a small set of real users (e.g., one police district), collect feedback, monitor\nperformance.\n Deliverables: Pilot evaluation report, incident log.\n Gate: Pilot success review; decision to scale.\n2.5 General Availability (GA)\n Activities: Full deployment, marketing launch, user training.\n Deliverables: GA release notes, monitoring dashboards.\n Gate: Post■launch review at 30/60/90 days.\n2.6 Maintenance and Retirement\n Activities: Ongoing support, patches, featur"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2175.8171999827027,
+                "chroma_ms": 7.937500020489097,
+                "retrieval_total_ms": 2183.7794999592006,
+                "prompt_ms": 0.039499951526522636,
+                "llm_ms": 52342.899000039324,
+                "total_ms": 54526.76819998305
+            },
+            "request_id": "a47fd2c3-baf6-4bfa-b46f-f5dc2a12cb6d"
+        },
+        {
+            "id": "q0035",
+            "question": "What is the recommended project methodology for software development projects involving AI at Capulus Technologies?",
+            "ground_truth": "Agile/Scrum",
+            "expected_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The recommended project methodology for software development projects involving AI at Capulus Technologies is **Agile/Scrum**, as specified in the **Project_Management_Handbook.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c1",
+                    "distance": 0.3210994005203247,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1,
+                    "text": "Project Management Handbook\nCapulus Technologies - Project Management Handbook\nVersion 3.0 - Effective January 1, 2024\n1.0 Introduction\nThis handbook defines project management standards for all Capulus projects, with special emphasis\non AI■driven solutions for smart policing, smart cities, and vision AI.\n2.0 Project Methodology\n2.1 Methodology Selection\nProject Type | Recommended Methodology\n| -------------- | ------------------------ |\nSoftware Development (AI) | Agile/Scrum\nInfrastructure (Smart City) | Waterfall with gates\nMarketing Campaign | Hybrid\nResearch (Vision AI) | Kanban\nEnterpris"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c1",
+                    "distance": 0.5192663669586182,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "Product Development Lifecycle\nCapulus Technologies - Product Development Lifecycle\nVersion 1.5 - Effective January 1, 2024\n1.0 Overview\nThis document outlines the stages, deliverables, and quality gates for developing AI■powered products\nat Capulus, from ideation to retirement.\n2.0 Lifecycle Phases\n2.1 Discovery and Ideation\n Activities: Market research, customer interviews (law enforcement, city planners), feasibility study.\n Deliverables: Product concept document, initial business case.\n Gate: Concept approval by Product Council.\n2.2 Requirements and Design\n Activities: Define user stori"
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c1",
+                    "distance": 0.6162698268890381,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "Customer Engagement Solution Delivery\nCapulus Technologies - Customer Engagement and Solution Delivery Policy\nVersion 1.0 - Effective January 1, 2024\n1.0 Purpose\nTo ensure consistent, high■quality engagement with our clients (police departments, city governments,\nenterprises) and successful deployment of Capulus solutions.\n2.0 Engagement Models\n2.1 Standard Engagement\n For commercial enterprises adopting Vision AI.\n Includes: Kick■off, implementation plan, training, go■live support, quarterly business reviews.\n2.2 Public Sector Engagement\n For law enforcement and smart city projects.\n Incl"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2195.0288999360055,
+                "chroma_ms": 8.496599970385432,
+                "retrieval_total_ms": 2203.558999928646,
+                "prompt_ms": 0.05709996912628412,
+                "llm_ms": 57255.57649997063,
+                "total_ms": 59459.25640000496
+            },
+            "request_id": "840bc17b-2a25-4dec-9291-cd62086fb1d8"
+        },
+        {
+            "id": "q0036",
+            "question": "How long does a sprint last according to the Agile Framework described in the document?",
+            "ground_truth": "2 weeks",
+            "expected_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "According to the Agile Framework described in the document, a sprint lasts **2 weeks (fixed)**. This information is cited from **Project_Management_Handbook.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c2",
+                    "distance": 0.6364870667457581,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1,
+                    "text": "art City) | Waterfall with gates\nMarketing Campaign | Hybrid\nResearch (Vision AI) | Kanban\nEnterprise■wide | SAFe\n2.2 Agile Framework\nSprint Structure:\n Duration: 2 weeks (fixed).\n Ceremonies:\n Sprint Planning: 2 hours (Day 1)\n Daily Stand■up: 15 minutes (9:30 AM)\n Sprint Review: 1 hour (Last day)\n Retrospective: 1 hour (Last day)\n Backlog Refinement: 1 hour/week\nRoles:\n Product Owner: Defines requirements, prioritizes backlog.\n Scrum Master: Facilitates process, removes blockers.\n Development Team: 5-7 members, cross■functional.\n Stakeholders: Provide feedback at reviews.\n3.0 Proje"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c2",
+                    "distance": 0.8522541522979736,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "te: Concept approval by Product Council.\n2.2 Requirements and Design\n Activities: Define user stories, success metrics, data requirements, and ethical considerations.\n Deliverables: PRD (Product Requirements Document), UX prototypes, data sourcing plan.\n Gate: Design review with Engineering, Security, and AI Ethics Board.\n2.3 Development and Testing\n Activities: Agile sprints, continuous integration, unit testing, model training/evaluation.\n Deliverables: Working software, test reports, bias assessment results.\n Gate: Code freeze and pre■launch security review.\n2.4 Pilot / Limited Deploy"
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c3",
+                    "distance": 0.8737961649894714,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1,
+                    "text": "s assessment results.\n Gate: Code freeze and pre■launch security review.\n2.4 Pilot / Limited Deployment\n Activities: Deploy to a small set of real users (e.g., one police district), collect feedback, monitor\nperformance.\n Deliverables: Pilot evaluation report, incident log.\n Gate: Pilot success review; decision to scale.\n2.5 General Availability (GA)\n Activities: Full deployment, marketing launch, user training.\n Deliverables: GA release notes, monitoring dashboards.\n Gate: Post■launch review at 30/60/90 days.\n2.6 Maintenance and Retirement\n Activities: Ongoing support, patches, featur"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2180.159299983643,
+                "chroma_ms": 6.2954999739304185,
+                "retrieval_total_ms": 2186.477500014007,
+                "prompt_ms": 0.03670004662126303,
+                "llm_ms": 57437.947000027634,
+                "total_ms": 59624.50599996373
+            },
+            "request_id": "f394716a-9e33-461f-8479-b9b66c4ca880"
+        },
+        {
+            "id": "q0037",
+            "question": "What are the mandatory metrics listed in the Project Management Handbook?",
+            "ground_truth": "Schedule Variance (SV), Cost Variance (CV), ROI/TCO Analysis, Resource Utilization, and Quality Metrics (defect rate).",
+            "expected_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The mandatory metrics listed in the Project Management Handbook are:\n\n- Schedule Variance (SV)\n- Cost Variance (CV)\n- ROI/TCO Analysis\n- Resource Utilization\n- Quality Metrics (defect rate)\n\nThese metrics are cited from **SOURCE 2**, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c1",
+                    "distance": 0.6933923959732056,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1,
+                    "text": "Project Management Handbook\nCapulus Technologies - Project Management Handbook\nVersion 3.0 - Effective January 1, 2024\n1.0 Introduction\nThis handbook defines project management standards for all Capulus projects, with special emphasis\non AI■driven solutions for smart policing, smart cities, and vision AI.\n2.0 Project Methodology\n2.1 Methodology Selection\nProject Type | Recommended Methodology\n| -------------- | ------------------------ |\nSoftware Development (AI) | Agile/Scrum\nInfrastructure (Smart City) | Waterfall with gates\nMarketing Campaign | Hybrid\nResearch (Vision AI) | Kanban\nEnterpris"
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p2_c1",
+                    "distance": 0.7042548060417175,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2,
+                    "text": " Final Report\n Handover Documents\n4.0 Project Metrics and KPIs\n4.1 Mandatory Metrics\n Schedule Variance (SV)\n Cost Variance (CV)\n ROI/TCO Analysis\n Resource Utilization\n Quality Metrics (defect rate)\n4.2 Agile Metrics\n Velocity\n Sprint Burndown\n Release Burndown\n Cumulative Flow\n Cycle Time\n4.3 Success Criteria\nCriterion | Target\n| ----------- | -------- |\nOn■Time Delivery | ±10%\nBudget Variance | ±5%\nStakeholder Satisfaction | >4.5/5\nDefect Rate | <3%\nTeam Satisfaction | >4.2/5\n5.0 Risk Management\n5.1 Risk Assessment Matrix\nProbability | Low Impact | Medium Impact | High Impact\n|"
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c3",
+                    "distance": 0.7812435626983643,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1,
+                    "text": "elopment Team: 5-7 members, cross■functional.\n Stakeholders: Provide feedback at reviews.\n3.0 Project Documentation\n3.1 Required Documents by Phase\nInitiation:\n Project Charter (mandatory)\n Business Case\n Stakeholder Register\nPlanning:\n Project Plan (mandatory)\n Risk Register (mandatory)\n Communication Plan\n Budget Approval\nExecution:\n Status Reports (weekly)\n Issue Log\n Change Requests\n Meeting Minutes\nClosure:\n Lessons Learned (mandatory)"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2169.3075000075623,
+                "chroma_ms": 7.203700020909309,
+                "retrieval_total_ms": 2176.540400017984,
+                "prompt_ms": 0.05619996227324009,
+                "llm_ms": 61099.130999995396,
+                "total_ms": 63275.78790008556
+            },
+            "request_id": "de686ebb-18b9-4c61-99c2-5e498d851460"
+        },
+        {
+            "id": "q0038",
+            "question": "What is the target for On-Time Delivery according to the Success Criteria table?",
+            "ground_truth": "±10%",
+            "expected_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The target for On-Time Delivery according to the Success Criteria table is ±10%. This information is found in SOURCE 3, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.6889623999595642,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1,
+                    "text": "and testing.\n Comply with all data protection laws.\n5.0 Success Criteria\n Customer Satisfaction Score (CSAT): ≥ 4.5/5 at 90 days post■launch.\n System Uptime: ≥ 99.5% (excluding scheduled maintenance)."
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p2_c1",
+                    "distance": 0.7466432452201843,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2,
+                    "text": "5.0 Metrics for Success\n Customer adoption rate.\n Model accuracy / precision / recall.\n Time from concept to GA.\n Post■release defect density."
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p2_c1",
+                    "distance": 0.7650424242019653,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2,
+                    "text": " Final Report\n Handover Documents\n4.0 Project Metrics and KPIs\n4.1 Mandatory Metrics\n Schedule Variance (SV)\n Cost Variance (CV)\n ROI/TCO Analysis\n Resource Utilization\n Quality Metrics (defect rate)\n4.2 Agile Metrics\n Velocity\n Sprint Burndown\n Release Burndown\n Cumulative Flow\n Cycle Time\n4.3 Success Criteria\nCriterion | Target\n| ----------- | -------- |\nOn■Time Delivery | ±10%\nBudget Variance | ±5%\nStakeholder Satisfaction | >4.5/5\nDefect Rate | <3%\nTeam Satisfaction | >4.2/5\n5.0 Risk Management\n5.1 Risk Assessment Matrix\nProbability | Low Impact | Medium Impact | High Impact\n|"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2180.7959000580013,
+                "chroma_ms": 3.9552999660372734,
+                "retrieval_total_ms": 2184.765800018795,
+                "prompt_ms": 0.025799963623285294,
+                "llm_ms": 40846.22229996603,
+                "total_ms": 43031.04870009702
+            },
+            "request_id": "4d5ea0a3-561d-487e-9f46-94c3f64b6f33"
+        },
+        {
+            "id": "q0039",
+            "question": "What are the requirements for Tier 3 vendors during the due diligence process?",
+            "ground_truth": "Tier 3 vendors must meet Tier 2 requirements plus on-site audit (or third-party audit report e.g., SOC2), penetration testing results, contractual clauses for data protection, breach notification, and right to audit, and proof of compliance with relevant regulations (GDPR, local policing data laws).",
+            "expected_sources": [
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The requirements for Tier 3 vendors during the due diligence process include:\n\n- Tier 2 requirements plus:\n- On-site audit (or third-party audit report, e.g., SOC2).\n- Penetration testing results.\n\nThese requirements are specified in **Vendor_ThirdParty_Risk_Management.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c2",
+                    "distance": 0.39370280504226685,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1,
+                    "text": "2 (Moderate Risk): Access to internal non■confidential data (e.g., HR platforms).\n Tier 3 (High Risk): Access to confidential or restricted data (e.g., cloud infrastructure, AI model training\ndata).\n3.0 Due Diligence Requirements\n3.1 Tier 1 Vendors\n Basic vendor information (W■9, business license).\n3.2 Tier 2 Vendors\n Tier 1 requirements plus:\n Security questionnaire.\n Review of vendor's privacy policy.\n Business continuity/disaster recovery summary.\n3.3 Tier 3 Vendors\n Tier 2 requirements plus:\n On■site audit (or third■party audit report e.g., SOC2).\n Penetration testing results.\n C"
+                },
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c1",
+                    "distance": 0.6499522924423218,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1,
+                    "text": "Vendor ThirdParty Risk Management\nCapulus Technologies - Vendor and Third■Party Risk Management Policy\nVersion 1.2 - Effective January 1, 2024\n1.0 Introduction\nThis policy ensures that all vendors, suppliers, and partners who interact with Capulus data or systems\nmeet our security, privacy, and ethical standards.\n2.0 Risk Categorization\nVendors are categorized based on the sensitivity of data they access:\n Tier 1 (Low Risk): No access to internal systems or data (e.g., office supplies).\n Tier 2 (Moderate Risk): Access to internal non■confidential data (e.g., HR platforms).\n Tier 3 (High Ris"
+                },
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c4",
+                    "distance": 0.6954046487808228,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1,
+                    "text": "thin 24 hours of contract termination.\n Certification of data destruction or return.\n Final security review.\n6.0 Responsibilities\n Procurement: Initiates due diligence.\n IT Security: Performs technical assessments.\n Legal: Reviews contracts and data protection clauses.\n---\nNon■compliance: Failure to adhere to this policy may result in termination of the vendor relationship."
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2178.047699970193,
+                "chroma_ms": 7.695800042711198,
+                "retrieval_total_ms": 2185.775200021453,
+                "prompt_ms": 0.05709996912628412,
+                "llm_ms": 60407.99410000909,
+                "total_ms": 62593.88870000839
+            },
+            "request_id": "356ba837-7f4d-4019-a5f1-f78de27ec31e"
+        },
+        {
+            "id": "q0040",
+            "question": "What happens if a vendor experiences a security incident involving Capulus data?",
+            "ground_truth": "The vendor will undergo an immediate re-assessment.",
+            "expected_sources": [
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "If a vendor experiences a security incident involving Capulus data, the vendor is expected to report the incident immediately, as outlined in the incident response procedures. However, the specific actions Capulus takes in response to such an incident are not detailed in the provided context. \n\nThe information is not available in the provided company documents.",
+            "actual_sources": [
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c1",
+                    "distance": 0.49603694677352905,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1,
+                    "text": "Vendor ThirdParty Risk Management\nCapulus Technologies - Vendor and Third■Party Risk Management Policy\nVersion 1.2 - Effective January 1, 2024\n1.0 Introduction\nThis policy ensures that all vendors, suppliers, and partners who interact with Capulus data or systems\nmeet our security, privacy, and ethical standards.\n2.0 Risk Categorization\nVendors are categorized based on the sensitivity of data they access:\n Tier 1 (Low Risk): No access to internal systems or data (e.g., office supplies).\n Tier 2 (Moderate Risk): Access to internal non■confidential data (e.g., HR platforms).\n Tier 3 (High Ris"
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c2",
+                    "distance": 0.5257851481437683,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2,
+                    "text": "lbroken/rooted devices.\n Company data can be wiped remotely.\n6.0 Incident Response\n6.1 Reportable Incidents\n Suspected data breach.\n Lost/stolen device.\n Phishing click with data entry.\n Unauthorized access.\n Malware infection.\n6.2 Reporting Process\n1. Immediately contact IT Security: security@capulus.com\n2. Call hotline: 1■888■SEC■URITY (24/7)\n3. Do not power off affected systems.\n4. Preserve all evidence.\n5. Await security team instructions.\n7.0 Policy Compliance\n7.1 Violations\n First offense: Security awareness training.\n Second offense: Written warning.\n Third offense: Possible te"
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c2",
+                    "distance": 0.6050831079483032,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2,
+                    "text": "need■to■know basis.\n Delete when no longer needed.\n4.2 Customer Information\n Never share without consent.\n Use only for intended purpose.\n Report breaches immediately.\n5.0 Reporting Violations\n5.1 Reporting Channels\n Manager or HR.\n Ethics Officer: ethics@capulus.com\n Ethics Hotline: 1-888-ETH-ICS4\n Online portal: ethics.capulus.com\n5.2 Investigation Process\n1. Report received within 24h.\n2. Initial assessment (3 days).\n3. Fact■finding (30 days typical).\n4. Findings report.\n5. Corrective action.\n5.3 Non■Retaliation Policy\nCapulus strictly prohibits retaliation against anyone who repor"
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2199.387399945408,
+                "chroma_ms": 6.162200006656349,
+                "retrieval_total_ms": 2205.5722000077367,
+                "prompt_ms": 0.03839994315057993,
+                "llm_ms": 68737.2417000588,
+                "total_ms": 70942.89720000234
+            },
+            "request_id": "c6529b8e-ddcb-4fd6-ac65-bfc9028dfdf9"
+        }
+    ]
+}

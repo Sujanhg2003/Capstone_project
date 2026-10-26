@@ -1,0 +1,482 @@
+[
+    {
+        "id": "q0001",
+        "question": "What is the Recovery Time Objective (RTO) for Core AI services (policing)?",
+        "ground_truth": "4 hours",
+        "expected_sources": [
+            {
+                "document": "Business_Continuity_Disaster_Recovery.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0002",
+        "question": "How often are critical data backups tested for restore capability?",
+        "ground_truth": "Monthly",
+        "expected_sources": [
+            {
+                "document": "Business_Continuity_Disaster_Recovery.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0003",
+        "question": "When was the document last reviewed?",
+        "ground_truth": "December 2023",
+        "expected_sources": [
+            {
+                "document": "Business_Continuity_Disaster_Recovery.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0004",
+        "question": "What is the title of the document mentioned in the content?",
+        "ground_truth": "Business Continuity Disaster Recovery.pdf",
+        "expected_sources": [
+            {
+                "document": "Business_Continuity_Disaster_Recovery.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0005",
+        "question": "What are the core principles outlined in the Code of Conduct and Ethics for Capulus Technologies?",
+        "ground_truth": "Integrity Without Compromise, Respect for All, Accountability for Actions, Transparency in Operations, and Excellence in Execution.",
+        "expected_sources": [
+            {
+                "document": "Code_of_Conduct_Ethics.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0006",
+        "question": "What is the maximum value for a gift that is permitted under the Code of Conduct and Ethics?",
+        "ground_truth": "$50",
+        "expected_sources": [
+            {
+                "document": "Code_of_Conduct_Ethics.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0007",
+        "question": "What are the prohibited payments mentioned in the Code of Conduct?",
+        "ground_truth": "Bribes or kickbacks.",
+        "expected_sources": [
+            {
+                "document": "Code_of_Conduct_Ethics.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0008",
+        "question": "What is the email address for reporting ethics concerns to the Ethics Officer?",
+        "ground_truth": "ethics@capulus.com",
+        "expected_sources": [
+            {
+                "document": "Code_of_Conduct_Ethics.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0009",
+        "question": "What is the copyright notice for the Code of Conduct Ethics document?",
+        "ground_truth": "© 2024 Capulus Technologies. All rights reserved.",
+        "expected_sources": [
+            {
+                "document": "Code_of_Conduct_Ethics.pdf",
+                "page": 3
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0010",
+        "question": "Which company owns the rights to the Code of Conduct Ethics document?",
+        "ground_truth": "Capulus Technologies",
+        "expected_sources": [
+            {
+                "document": "Code_of_Conduct_Ethics.pdf",
+                "page": 3
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0011",
+        "question": "What are the key components of the Standard Engagement model for commercial enterprises?",
+        "ground_truth": "Kick-off, implementation plan, training, go-live support, and quarterly business reviews.",
+        "expected_sources": [
+            {
+                "document": "Customer_Engagement_Solution_Delivery.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0012",
+        "question": "What is the minimum required customer satisfaction score (CSAT) at 90 days post-launch according to the success criteria?",
+        "ground_truth": "≥ 4.5/5",
+        "expected_sources": [
+            {
+                "document": "Customer_Engagement_Solution_Delivery.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0013",
+        "question": "What is the response time for a High severity issue according to the escalation path?",
+        "ground_truth": "4 hours",
+        "expected_sources": [
+            {
+                "document": "Customer_Engagement_Solution_Delivery.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0014",
+        "question": "Who is the escalation contact for a Critical issue?",
+        "ground_truth": "VP Customer Success",
+        "expected_sources": [
+            {
+                "document": "Customer_Engagement_Solution_Delivery.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0015",
+        "question": "What is the email address where data privacy requests should be submitted?",
+        "ground_truth": "privacy@capulus.com",
+        "expected_sources": [
+            {
+                "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0016",
+        "question": "Who is responsible for overseeing compliance with data privacy laws at Capulus Technologies?",
+        "ground_truth": "Data Protection Officer (DPO)",
+        "expected_sources": [
+            {
+                "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0017",
+        "question": "How often is the Data Privacy AI Ethics Policy reviewed?",
+        "ground_truth": "Annually or after any major regulatory change.",
+        "expected_sources": [
+            {
+                "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0018",
+        "question": "Under what circumstances is the Data Privacy AI Ethics Policy reviewed in addition to the annual review?",
+        "ground_truth": "After any major regulatory change.",
+        "expected_sources": [
+            {
+                "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0019",
+        "question": "What are the standard working hours at Capulus Technologies?",
+        "ground_truth": "Monday - Friday, 9:00 AM to 6:00 PM.",
+        "expected_sources": [
+            {
+                "document": "Employee_Handbook_2024.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0020",
+        "question": "How many days of annual leave are accrued per month?",
+        "ground_truth": "2 days per month.",
+        "expected_sources": [
+            {
+                "document": "Employee_Handbook_2024.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0021",
+        "question": "When are annual performance reviews conducted?",
+        "ground_truth": "Every December.",
+        "expected_sources": [
+            {
+                "document": "Employee_Handbook_2024.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0022",
+        "question": "What is the purpose of the 90-day review?",
+        "ground_truth": "For new hires.",
+        "expected_sources": [
+            {
+                "document": "Employee_Handbook_2024.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0023",
+        "question": "What is the maximum reimbursement amount for a home office setup?",
+        "ground_truth": "One-time $500 reimbursement.",
+        "expected_sources": [
+            {
+                "document": "Financial_Policies_Procedures.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0024",
+        "question": "What is the daily alcohol reimbursement limit for meals and incidentals?",
+        "ground_truth": "$30/day.",
+        "expected_sources": [
+            {
+                "document": "Financial_Policies_Procedures.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0025",
+        "question": "What is the monthly credit card limit for a VP or higher position?",
+        "ground_truth": "$50,000",
+        "expected_sources": [
+            {
+                "document": "Financial_Policies_Procedures.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0026",
+        "question": "What is required for a new vendor to be set up in the company?",
+        "ground_truth": "Finance approval",
+        "expected_sources": [
+            {
+                "document": "Financial_Policies_Procedures.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0027",
+        "question": "What are the password requirements for user authentication according to the IT Security Policy?",
+        "ground_truth": "Strong passwords required with: Minimum 14 characters, at least 1 uppercase letter, at least 1 lowercase letter, at least 1 number, at least 1 special character. Passwords expire every 60 days. Cannot reuse last 12 passwords. Account locks after 3 failed attempts.",
+        "expected_sources": [
+            {
+                "document": "IT_Security_Policy.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0028",
+        "question": "Which systems require Multi-Factor Authentication (MFA) according to the IT Security Policy?",
+        "ground_truth": "All remote access, administrative accounts, financial systems, email access from new devices, and access to any system containing law enforcement data require MFA.",
+        "expected_sources": [
+            {
+                "document": "IT_Security_Policy.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0029",
+        "question": "What is required for remote access to the corporate network?",
+        "ground_truth": "VPN required for all remote access.",
+        "expected_sources": [
+            {
+                "document": "IT_Security_Policy.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0030",
+        "question": "What should be done if a device is lost or stolen?",
+        "ground_truth": "Reported as a lost/stolen device under reportable incidents.",
+        "expected_sources": [
+            {
+                "document": "IT_Security_Policy.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0031",
+        "question": "Which approvals are required for the Design phase of the Product Development Lifecycle?",
+        "ground_truth": "Engineering Lead, Security, AI Ethics",
+        "expected_sources": [
+            {
+                "document": "Product_Development_Lifecycle.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0032",
+        "question": "What are the deliverables for the Development and Testing phase?",
+        "ground_truth": "Working software, test reports, bias assessment results",
+        "expected_sources": [
+            {
+                "document": "Product_Development_Lifecycle.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0033",
+        "question": "What are the metrics for success listed in the document?",
+        "ground_truth": "Customer adoption rate, Model accuracy / precision / recall, Time from concept to GA, Post-release defect density.",
+        "expected_sources": [
+            {
+                "document": "Product_Development_Lifecycle.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0034",
+        "question": "Which metric measures how quickly a product moves from concept to general availability?",
+        "ground_truth": "Time from concept to GA.",
+        "expected_sources": [
+            {
+                "document": "Product_Development_Lifecycle.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0035",
+        "question": "What is the recommended project methodology for software development projects involving AI at Capulus Technologies?",
+        "ground_truth": "Agile/Scrum",
+        "expected_sources": [
+            {
+                "document": "Project_Management_Handbook.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0036",
+        "question": "How long does a sprint last according to the Agile Framework described in the document?",
+        "ground_truth": "2 weeks",
+        "expected_sources": [
+            {
+                "document": "Project_Management_Handbook.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0037",
+        "question": "What are the mandatory metrics listed in the Project Management Handbook?",
+        "ground_truth": "Schedule Variance (SV), Cost Variance (CV), ROI/TCO Analysis, Resource Utilization, and Quality Metrics (defect rate).",
+        "expected_sources": [
+            {
+                "document": "Project_Management_Handbook.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0038",
+        "question": "What is the target for On-Time Delivery according to the Success Criteria table?",
+        "ground_truth": "±10%",
+        "expected_sources": [
+            {
+                "document": "Project_Management_Handbook.pdf",
+                "page": 2
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0039",
+        "question": "What are the requirements for Tier 3 vendors during the due diligence process?",
+        "ground_truth": "Tier 3 vendors must meet Tier 2 requirements plus on-site audit (or third-party audit report e.g., SOC2), penetration testing results, contractual clauses for data protection, breach notification, and right to audit, and proof of compliance with relevant regulations (GDPR, local policing data laws).",
+        "expected_sources": [
+            {
+                "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    },
+    {
+        "id": "q0040",
+        "question": "What happens if a vendor experiences a security incident involving Capulus data?",
+        "ground_truth": "The vendor will undergo an immediate re-assessment.",
+        "expected_sources": [
+            {
+                "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                "page": 1
+            }
+        ],
+        "type": "answerable"
+    }
+]

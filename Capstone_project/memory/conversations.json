@@ -1,0 +1,20 @@
+{
+    "test_session_001": [
+        {
+            "role": "user",
+            "content": "What is the RTO for Core AI services?"
+        },
+        {
+            "role": "assistant",
+            "content": "The RTO is 4 hours."
+        },
+        {
+            "role": "user",
+            "content": "What about its RPO?"
+        },
+        {
+            "role": "assistant",
+            "content": "The RPO is 15 minutes."
+        }
+    ]
+}

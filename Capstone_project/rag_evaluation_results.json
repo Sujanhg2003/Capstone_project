@@ -1,0 +1,80 @@
+{
+    "num_questions": 10,
+    "average_metrics": {
+        "faithfulness": 0.875,
+        "context_precision": 0.5666666666666667,
+        "answer_relevancy": 0.9476089561767344
+    },
+    "questions": [
+        {
+            "id": "q0001",
+            "question": "What is the Recovery Time Objective (RTO) for Core AI services (policing)?",
+            "faithfulness": 1.0,
+            "context_precision": 1.0,
+            "answer_relevancy": 0.9676419142155654
+        },
+        {
+            "id": "q0002",
+            "question": "How often are critical data backups tested for restore capability?",
+            "faithfulness": 1.0,
+            "context_precision": 0.8333333333333333,
+            "answer_relevancy": 0.9354102847364856
+        },
+        {
+            "id": "q0003",
+            "question": "When was the document last reviewed?",
+            "faithfulness": 1.0,
+            "context_precision": 1.0,
+            "answer_relevancy": 0.9100964951500337
+        },
+        {
+            "id": "q0004",
+            "question": "What is the title of the document mentioned in the content?",
+            "faithfulness": 0.75,
+            "context_precision": 0.0,
+            "answer_relevancy": 0.9156208787433218
+        },
+        {
+            "id": "q0005",
+            "question": "What are the core principles outlined in the Code of Conduct and Ethics for Capulus Technologies?",
+            "faithfulness": 1.0,
+            "context_precision": 1.0,
+            "answer_relevancy": 0.9607740014331743
+        },
+        {
+            "id": "q0006",
+            "question": "What is the maximum value for a gift that is permitted under the Code of Conduct and Ethics?",
+            "faithfulness": 1.0,
+            "context_precision": 1.0,
+            "answer_relevancy": 0.9595221630969184
+        },
+        {
+            "id": "q0007",
+            "question": "What are the prohibited payments mentioned in the Code of Conduct?",
+            "faithfulness": 1.0,
+            "context_precision": 0.3333333333333333,
+            "answer_relevancy": 0.9474514960324913
+        },
+        {
+            "id": "q0008",
+            "question": "What is the email address for reporting ethics concerns to the Ethics Officer?",
+            "faithfulness": 1.0,
+            "context_precision": 0.5,
+            "answer_relevancy": 0.961471302066265
+        },
+        {
+            "id": "q0009",
+            "question": "What is the copyright notice for the Code of Conduct Ethics document?",
+            "faithfulness": 0.0,
+            "context_precision": 0.0,
+            "answer_relevancy": 0.9602426327136
+        },
+        {
+            "id": "q0010",
+            "question": "Which company owns the rights to the Code of Conduct Ethics document?",
+            "faithfulness": 1.0,
+            "context_precision": 0.0,
+            "answer_relevancy": 0.9578583935794887
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+[
+  {
+    "id": "EV001",
+    "question": "What type of incident is reported in FIR 1?",
+    "expected_answer": "Mobile phone theft.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-001"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV002",
+    "question": "What type of incident is reported in FIR 2?",
+    "expected_answer": "Motorcycle theft.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-002"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV003",
+    "question": "What type of fraud is reported in FIR 5?",
+    "expected_answer": "UPI/cyber fraud.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-005"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV004",
+    "question": "What type of incident is reported in FIR 8?",
+    "expected_answer": "Assault/altercation.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-008"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV005",
+    "question": "What type of crime is reported in FIR 11?",
+    "expected_answer": "Burglary/property theft.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-011"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV006",
+    "question": "What type of incident is reported in FIR 14?",
+    "expected_answer": "Missing person.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-014"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV007",
+    "question": "What type of incident is reported in FIR 16?",
+    "expected_answer": "Road accident.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-016"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV008",
+    "question": "What type of incident is reported in FIR 17?",
+    "expected_answer": "Property damage.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-017"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV009",
+    "question": "What type of fraud is reported in FIR 19?",
+    "expected_answer": "Cheque fraud.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-019"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV010",
+    "question": "What type of incident is reported in FIR 20?",
+    "expected_answer": "Public nuisance/threat.",
+    "category": "direct",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-020"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV011",
+    "question": "Which FIRs concern mobile or motorcycle theft?",
+    "expected_answer": "FIRs 1–4.",
+    "category": "group_retrieval",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-001",
+      "SYN-FIR-002",
+      "SYN-FIR-003",
+      "SYN-FIR-004"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV012",
+    "question": "Which FIRs concern cyber, UPI, or OTP fraud?",
+    "expected_answer": "FIRs 5–7.",
+    "category": "group_retrieval",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-005",
+      "SYN-FIR-006",
+      "SYN-FIR-007"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV013",
+    "question": "Which FIRs concern assault or an altercation?",
+    "expected_answer": "FIRs 8–10.",
+    "category": "group_retrieval",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-008",
+      "SYN-FIR-009",
+      "SYN-FIR-010"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV014",
+    "question": "Which FIRs concern burglary or property theft?",
+    "expected_answer": "FIRs 11–13.",
+    "category": "group_retrieval",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-011",
+      "SYN-FIR-012",
+      "SYN-FIR-013"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV015",
+    "question": "Find the FIRs related to unauthorized financial transactions or digital payment fraud.",
+    "expected_answer": "FIRs 5–7, which cover cyber, UPI, and OTP-related fraud.",
+    "category": "similarity",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-005",
+      "SYN-FIR-006",
+      "SYN-FIR-007"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV016",
+    "question": "Find the FIRs related to stolen personal or movable property.",
+    "expected_answer": "The theft-related FIRs include FIRs 1–4, 11–13, 15, and 18.",
+    "category": "similarity",
+    "difficulty": "hard",
+    "source_fir_ids": [
+      "SYN-FIR-001",
+      "SYN-FIR-002",
+      "SYN-FIR-003",
+      "SYN-FIR-004",
+      "SYN-FIR-011",
+      "SYN-FIR-012",
+      "SYN-FIR-013",
+      "SYN-FIR-015",
+      "SYN-FIR-018"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV017",
+    "question": "Which FIRs belong to the same broad theft-related category as FIR 1?",
+    "expected_answer": "FIRs 2–4 are also theft-related; FIRs 11–13, 15, and 18 involve other forms of property, document, or workplace theft.",
+    "category": "cross_document",
+    "difficulty": "hard",
+    "source_fir_ids": [
+      "SYN-FIR-001",
+      "SYN-FIR-002",
+      "SYN-FIR-003",
+      "SYN-FIR-004",
+      "SYN-FIR-011",
+      "SYN-FIR-012",
+      "SYN-FIR-013",
+      "SYN-FIR-015",
+      "SYN-FIR-018"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV018",
+    "question": "Which FIRs form the main digital-fraud cluster in the dataset?",
+    "expected_answer": "FIRs 5–7.",
+    "category": "cross_document",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-005",
+      "SYN-FIR-006",
+      "SYN-FIR-007"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV019",
+    "question": "Which FIRs form the main assault/altercation cluster?",
+    "expected_answer": "FIRs 8–10.",
+    "category": "cross_document",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-008",
+      "SYN-FIR-009",
+      "SYN-FIR-010"
+    ],
+    "expected_behavior": "answer_from_context"
+  },
+  {
+    "id": "EV020",
+    "question": "What is the accused person's passport number in FIR 1?",
+    "expected_answer": "The passport number is not available in the provided FIR records.",
+    "category": "unanswerable",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-001"
+    ],
+    "expected_behavior": "refuse_missing_information"
+  },
+  {
+    "id": "EV021",
+    "question": "What is the accused person's Aadhaar number in FIR 5?",
+    "expected_answer": "The Aadhaar number is not available in the provided FIR records.",
+    "category": "unanswerable",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-005"
+    ],
+    "expected_behavior": "refuse_missing_information"
+  },
+  {
+    "id": "EV022",
+    "question": "What is the victim's bank account password in FIR 6?",
+    "expected_answer": "The bank account password is not available in the provided FIR records.",
+    "category": "unanswerable",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-006"
+    ],
+    "expected_behavior": "refuse_missing_information"
+  },
+  {
+    "id": "EV023",
+    "question": "What is the exact GPS coordinate of the incident in FIR 16?",
+    "expected_answer": "The exact GPS coordinate is not available in the provided FIR records.",
+    "category": "unanswerable",
+    "difficulty": "medium",
+    "source_fir_ids": [
+      "SYN-FIR-016"
+    ],
+    "expected_behavior": "refuse_missing_information"
+  },
+  {
+    "id": "EV024",
+    "question": "What is the accused person's passport number in FIR 20?",
+    "expected_answer": "The passport number is not available in the provided FIR records.",
+    "category": "unanswerable",
+    "difficulty": "easy",
+    "source_fir_ids": [
+      "SYN-FIR-020"
+    ],
+    "expected_behavior": "refuse_missing_information"
+  }
+]

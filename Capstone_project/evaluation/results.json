@@ -1,0 +1,2286 @@
+{
+    "timestamp": "2026-10-07T11:52:16.900500+00:00",
+    "total_questions": 40,
+    "results": [
+        {
+            "id": "q0001",
+            "question": "What is the Recovery Time Objective (RTO) for Core AI services (policing)?",
+            "ground_truth": "4 hours",
+            "expected_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The Recovery Time Objective (RTO) for Core AI services (policing) is **4 hours**, as stated in **Business_Continuity_Disaster_Recovery.pdf** on page 1.",
+            "actual_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c2",
+                    "distance": 0.36223363876342773,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c4",
+                    "distance": 0.6109448671340942,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c4",
+                    "distance": 0.6642310619354248,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 4104.289300041273,
+                "chroma_ms": 82.35279994551092,
+                "retrieval_total_ms": 4186.661999905482,
+                "prompt_ms": 0.03920006565749645,
+                "llm_ms": 108680.24029990193,
+                "total_ms": 112866.97360000107
+            },
+            "request_id": "1732dfbd-35f3-4f9b-a23c-9fb3b642bd53"
+        },
+        {
+            "id": "q0002",
+            "question": "How often are critical data backups tested for restore capability?",
+            "ground_truth": "Monthly",
+            "expected_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "Critical data backups are tested monthly for restore capability, as stated in SOURCE 1, Page 1.",
+            "actual_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c4",
+                    "distance": 0.6196388602256775,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.6748158931732178,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c3",
+                    "distance": 0.8168343901634216,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2170.6149999517947,
+                "chroma_ms": 7.542600040324032,
+                "retrieval_total_ms": 2178.210499929264,
+                "prompt_ms": 0.06330001633614302,
+                "llm_ms": 42734.6371000167,
+                "total_ms": 44912.985699949786
+            },
+            "request_id": "e7ce0871-f802-4ca5-a2d6-72552940aafc"
+        },
+        {
+            "id": "q0003",
+            "question": "When was the document last reviewed?",
+            "ground_truth": "December 2023",
+            "expected_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The document \"Business_Continuity_Disaster_Recovery.pdf\" was last reviewed in December 2023 (Source 1, Page 2). The other documents do not provide specific dates for their last review.",
+            "actual_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p2_c1",
+                    "distance": 0.6646055579185486,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p2_c1",
+                    "distance": 0.7236661314964294,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.7875453233718872,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2125.846799928695,
+                "chroma_ms": 7.111600018106401,
+                "retrieval_total_ms": 2132.997200009413,
+                "prompt_ms": 0.08650007657706738,
+                "llm_ms": 30386.166300042532,
+                "total_ms": 32519.31780006271
+            },
+            "request_id": "53df1e6e-9f4b-4c32-842c-b604a663f60c"
+        },
+        {
+            "id": "q0004",
+            "question": "What is the title of the document mentioned in the content?",
+            "ground_truth": "Business Continuity Disaster Recovery.pdf",
+            "expected_sources": [
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The title of the document mentioned in the content is \"Product Development Lifecycle\" from the document \"Product_Development_Lifecycle.pdf\" (Source 3, Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c3",
+                    "distance": 0.8983243107795715,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p3_c1",
+                    "distance": 0.930656909942627,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c1",
+                    "distance": 0.9529579877853394,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2172.092199907638,
+                "chroma_ms": 7.918199989944696,
+                "retrieval_total_ms": 2180.043299915269,
+                "prompt_ms": 0.06009999196976423,
+                "llm_ms": 41797.17470007017,
+                "total_ms": 43977.33959998004
+            },
+            "request_id": "28c24b4a-7bfd-4ccc-a9c0-8a9c0f20adb3"
+        },
+        {
+            "id": "q0005",
+            "question": "What are the core principles outlined in the Code of Conduct and Ethics for Capulus Technologies?",
+            "ground_truth": "Integrity Without Compromise, Respect for All, Accountability for Actions, Transparency in Operations, and Excellence in Execution.",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The core principles outlined in the Code of Conduct and Ethics for Capulus Technologies are:\n\n1. **Integrity Without Compromise** - We act honestly and ethically in every situation.  \n2. **Respect for All** - We value diversity and treat everyone with dignity.  \n3. **Accountability for Actions** - We own our decisions and their outcomes.  \n4. **Transparency in Operations** - We communicate openly and honestly.  \n5. **Excellence in Execution** - We strive for the highest quality in everything we do.  \n\nThese principles are cited from **SOURCE 1** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c1",
+                    "distance": 0.30663442611694336,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p3_c1",
+                    "distance": 0.5254508852958679,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c4",
+                    "distance": 0.54374760389328,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2189.0086999628693,
+                "chroma_ms": 3.1625000992789865,
+                "retrieval_total_ms": 2192.185000050813,
+                "prompt_ms": 0.024900073185563087,
+                "llm_ms": 67087.8416999476,
+                "total_ms": 69280.087799998
+            },
+            "request_id": "c576bf51-842d-472b-96f1-0e2a4c5e8802"
+        },
+        {
+            "id": "q0006",
+            "question": "What is the maximum value for a gift that is permitted under the Code of Conduct and Ethics?",
+            "ground_truth": "$50",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The maximum value for a gift that is permitted under the Code of Conduct and Ethics is $50. This is specified in the context under the section \"Gifts and Entertainment,\" which states that meals under $50 are permitted. \n\nSource: Code_of_Conduct_Ethics.pdf, Page: 1.",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c3",
+                    "distance": 0.6788192391395569,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c4",
+                    "distance": 0.7067327499389648,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c1",
+                    "distance": 0.755386471748352,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2162.0325999101624,
+                "chroma_ms": 3.526700078509748,
+                "retrieval_total_ms": 2165.577400010079,
+                "prompt_ms": 0.027099973522126675,
+                "llm_ms": 62864.029700052924,
+                "total_ms": 65029.669699957594
+            },
+            "request_id": "998d9068-1628-4807-9f40-9f9d3f021092"
+        },
+        {
+            "id": "q0007",
+            "question": "What are the prohibited payments mentioned in the Code of Conduct?",
+            "ground_truth": "Bribes or kickbacks.",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The prohibited payments mentioned in the Code of Conduct include:\n\n- Cash or equivalents.\n- Gifts during bidding.\n- Personal favors.\n- Anything that influences decisions.\n\nThese prohibitions are outlined in the \"Gifts and Entertainment\" section of the Code of Conduct Ethics document (Source 1 and Source 2).",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c4",
+                    "distance": 0.7136184573173523,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c3",
+                    "distance": 0.7682191729545593,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c3",
+                    "distance": 0.7711326479911804,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2152.2852999623865,
+                "chroma_ms": 3.1472999835386872,
+                "retrieval_total_ms": 2155.4473999422044,
+                "prompt_ms": 0.02359994687139988,
+                "llm_ms": 56561.45280005876,
+                "total_ms": 58716.95669996552
+            },
+            "request_id": "5712bc70-33c0-46b1-91b1-1fac3c12d237"
+        },
+        {
+            "id": "q0008",
+            "question": "What is the email address for reporting ethics concerns to the Ethics Officer?",
+            "ground_truth": "ethics@capulus.com",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The email address for reporting ethics concerns to the Ethics Officer is ethics@capulus.com. This information is found in SOURCE 2, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.6002309322357178,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c2",
+                    "distance": 0.6113697290420532,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c5",
+                    "distance": 0.664909303188324,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2176.258699968457,
+                "chroma_ms": 7.975499960593879,
+                "retrieval_total_ms": 2184.265499934554,
+                "prompt_ms": 0.055299955420196056,
+                "llm_ms": 51887.88479997311,
+                "total_ms": 54072.26729998365
+            },
+            "request_id": "aa238ff5-fdf3-4c19-b888-7b68f58d029b"
+        },
+        {
+            "id": "q0009",
+            "question": "What is the copyright notice for the Code of Conduct Ethics document?",
+            "ground_truth": "© 2024 Capulus Technologies. All rights reserved.",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                }
+            ],
+            "type": "answerable",
+            "answer": "The copyright notice for the Code of Conduct Ethics document is not available in the provided company documents.",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c1",
+                    "distance": 0.628546953201294,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c4",
+                    "distance": 0.7000454664230347,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.8686680793762207,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2179.804699961096,
+                "chroma_ms": 7.621700060553849,
+                "retrieval_total_ms": 2187.4574000248685,
+                "prompt_ms": 0.05350005812942982,
+                "llm_ms": 36706.892500049435,
+                "total_ms": 38894.471700070426
+            },
+            "request_id": "ff79de41-5784-41f1-951f-7c12cd01ff68"
+        },
+        {
+            "id": "q0010",
+            "question": "Which company owns the rights to the Code of Conduct Ethics document?",
+            "ground_truth": "Capulus Technologies",
+            "expected_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                }
+            ],
+            "type": "answerable",
+            "answer": "The company that owns the rights to the Code of Conduct Ethics document is Capulus Technologies. This is indicated in the document \"Code_of_Conduct_Ethics.pdf\" on page 1, where it states \"Capulus Technologies - Code of Conduct and Ethics.\" \n\nSource: Code_of_Conduct_Ethics.pdf, Page 1.",
+            "actual_sources": [
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c1",
+                    "distance": 0.516659140586853,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c4",
+                    "distance": 0.6226556301116943,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c5",
+                    "distance": 0.7274506688117981,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2178.7538999924436,
+                "chroma_ms": 8.014099905267358,
+                "retrieval_total_ms": 2186.7991000181064,
+                "prompt_ms": 0.053200055845081806,
+                "llm_ms": 58597.35980001278,
+                "total_ms": 60784.27359997295
+            },
+            "request_id": "ebd10acb-e029-442c-bd01-6165fd7c4704"
+        },
+        {
+            "id": "q0011",
+            "question": "What are the key components of the Standard Engagement model for commercial enterprises?",
+            "ground_truth": "Kick-off, implementation plan, training, go-live support, and quarterly business reviews.",
+            "expected_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The key components of the Standard Engagement model for commercial enterprises, as outlined in the provided context, are:\n\n- Kick-off\n- Implementation plan\n- Training\n- Go-live support\n- Quarterly business reviews\n\nThese components are detailed in **Customer_Engagement_Solution_Delivery.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c1",
+                    "distance": 0.7024060487747192,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c3",
+                    "distance": 0.8768766522407532,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c2",
+                    "distance": 0.8865519165992737,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2183.4136999677867,
+                "chroma_ms": 7.489599986001849,
+                "retrieval_total_ms": 2190.9325999440625,
+                "prompt_ms": 0.05589995998889208,
+                "llm_ms": 63078.96650000475,
+                "total_ms": 65270.01900004689
+            },
+            "request_id": "84b0837a-3732-429d-a0b0-fc550068684d"
+        },
+        {
+            "id": "q0012",
+            "question": "What is the minimum required customer satisfaction score (CSAT) at 90 days post-launch according to the success criteria?",
+            "ground_truth": "≥ 4.5/5",
+            "expected_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The minimum required customer satisfaction score (CSAT) at 90 days post-launch according to the success criteria is ≥ 4.5/5. This is specified in **Customer_Engagement_Solution_Delivery.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.2922595739364624,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c3",
+                    "distance": 0.6436898112297058,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p2_c1",
+                    "distance": 0.650604248046875,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2140.034999931231,
+                "chroma_ms": 3.552700043655932,
+                "retrieval_total_ms": 2143.602699972689,
+                "prompt_ms": 0.0252000754699111,
+                "llm_ms": 44834.28660000209,
+                "total_ms": 46977.9489999637
+            },
+            "request_id": "75fb3818-f4dc-4186-adb7-65a18a05d7d4"
+        },
+        {
+            "id": "q0013",
+            "question": "What is the response time for a High severity issue according to the escalation path?",
+            "ground_truth": "4 hours",
+            "expected_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The response time for a High severity issue according to the escalation path is 4 hours. This information is found in SOURCE 1, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p2_c1",
+                    "distance": 0.41005218029022217,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c4",
+                    "distance": 0.7596175670623779,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.7974060773849487,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2191.022500046529,
+                "chroma_ms": 7.486199960112572,
+                "retrieval_total_ms": 2198.540300014429,
+                "prompt_ms": 0.05000003147870302,
+                "llm_ms": 45944.319500005804,
+                "total_ms": 48142.99009996466
+            },
+            "request_id": "5a3c5d8c-4329-4c8f-87b5-e140ca0c3c4d"
+        },
+        {
+            "id": "q0014",
+            "question": "Who is the escalation contact for a Critical issue?",
+            "ground_truth": "VP Customer Success",
+            "expected_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The escalation contact for a Critical issue is the VP Customer Success. This information is found in **Customer_Engagement_Solution_Delivery.pdf** on page 2.",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p2_c1",
+                    "distance": 0.6235896944999695,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c4",
+                    "distance": 0.8154865503311157,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c3",
+                    "distance": 0.8582645654678345,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2182.2719000047073,
+                "chroma_ms": 6.606000009924173,
+                "retrieval_total_ms": 2188.908700016327,
+                "prompt_ms": 0.04730001091957092,
+                "llm_ms": 49854.55849999562,
+                "total_ms": 52043.572399998084
+            },
+            "request_id": "3cda1568-b229-471f-99ca-7cd94d024efe"
+        },
+        {
+            "id": "q0015",
+            "question": "What is the email address where data privacy requests should be submitted?",
+            "ground_truth": "privacy@capulus.com",
+            "expected_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The email address where data privacy requests should be submitted is **privacy@capulus.com**. This is specified in SOURCE 2 and SOURCE 3 of the provided context.",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c2",
+                    "distance": 0.6373787522315979,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.6577728390693665,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c3",
+                    "distance": 0.7068506479263306,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2188.2207000162452,
+                "chroma_ms": 7.6009000185877085,
+                "retrieval_total_ms": 2195.8521000342444,
+                "prompt_ms": 0.051999930292367935,
+                "llm_ms": 49894.42070003133,
+                "total_ms": 52090.38690000307
+            },
+            "request_id": "012af299-40f5-44e3-b091-d03b30b7a111"
+        },
+        {
+            "id": "q0016",
+            "question": "Who is responsible for overseeing compliance with data privacy laws at Capulus Technologies?",
+            "ground_truth": "Data Protection Officer (DPO)",
+            "expected_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The Data Protection Officer (DPO) is responsible for overseeing compliance with data privacy laws at Capulus Technologies. This is stated in **Data_Privacy_AI_Ethics_Policy.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.4615064859390259,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c1",
+                    "distance": 0.46766021847724915,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p3_c1",
+                    "distance": 0.5491326451301575,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2205.567799974233,
+                "chroma_ms": 7.028799969702959,
+                "retrieval_total_ms": 2212.6246000407264,
+                "prompt_ms": 0.04870002157986164,
+                "llm_ms": 42344.19860003982,
+                "total_ms": 44556.93980003707
+            },
+            "request_id": "b29abc80-ce74-4724-9422-e3a46d254c5a"
+        },
+        {
+            "id": "q0017",
+            "question": "How often is the Data Privacy AI Ethics Policy reviewed?",
+            "ground_truth": "Annually or after any major regulatory change.",
+            "expected_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The Data Privacy AI Ethics Policy is reviewed quarterly, as stated in the document. \n\n**Source:** Data_Privacy_AI_Ethics_Policy.pdf, Page: 1.",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c4",
+                    "distance": 0.4879276156425476,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.5184808373451233,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c1",
+                    "distance": 0.5322700142860413,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2172.1978000132367,
+                "chroma_ms": 6.660900078713894,
+                "retrieval_total_ms": 2178.881299914792,
+                "prompt_ms": 0.041499966755509377,
+                "llm_ms": 48737.51100001391,
+                "total_ms": 50916.47689999081
+            },
+            "request_id": "cb60754e-f450-4029-9195-92f18f9830d2"
+        },
+        {
+            "id": "q0018",
+            "question": "Under what circumstances is the Data Privacy AI Ethics Policy reviewed in addition to the annual review?",
+            "ground_truth": "After any major regulatory change.",
+            "expected_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The information is not available in the provided company documents.",
+            "actual_sources": [
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c5",
+                    "distance": 0.4492320120334625,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c4",
+                    "distance": 0.45771342515945435,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p1_c1",
+                    "distance": 0.4804016351699829,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2225.2525999210775,
+                "chroma_ms": 6.823400035500526,
+                "retrieval_total_ms": 2232.103299931623,
+                "prompt_ms": 0.04910002462565899,
+                "llm_ms": 41627.891700016335,
+                "total_ms": 43860.10179994628
+            },
+            "request_id": "e69e5d34-b2f3-46d6-8030-222261cc2368"
+        },
+        {
+            "id": "q0019",
+            "question": "What are the standard working hours at Capulus Technologies?",
+            "ground_truth": "Monday - Friday, 9:00 AM to 6:00 PM.",
+            "expected_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The standard working hours at Capulus Technologies are Monday - Friday, 9:00 AM to 6:00 PM. This information is outlined in the Employee Handbook 2024 (Document: Employee_Handbook_2024.pdf, Page: 1).",
+            "actual_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c1",
+                    "distance": 0.406244695186615,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p3_c1",
+                    "distance": 0.618985116481781,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 3
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c2",
+                    "distance": 0.640638530254364,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2154.6330000273883,
+                "chroma_ms": 7.547000073827803,
+                "retrieval_total_ms": 2162.211099988781,
+                "prompt_ms": 0.06029999349266291,
+                "llm_ms": 52496.365499915555,
+                "total_ms": 54658.69930002373
+            },
+            "request_id": "24fbf918-b5da-4575-90cf-2be5f7201f5b"
+        },
+        {
+            "id": "q0020",
+            "question": "How many days of annual leave are accrued per month?",
+            "ground_truth": "2 days per month.",
+            "expected_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "According to the provided context, annual leave is accrued at 2 days per month. \n\n**Source:** Employee_Handbook_2024.pdf, Page: 1.",
+            "actual_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c2",
+                    "distance": 0.6509066820144653,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p1_c3",
+                    "distance": 0.6904675960540771,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.7960706949234009,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2159.0954000130296,
+                "chroma_ms": 7.86140002310276,
+                "retrieval_total_ms": 2166.990099940449,
+                "prompt_ms": 0.05439994856715202,
+                "llm_ms": 51191.56589999329,
+                "total_ms": 53358.67630003486
+            },
+            "request_id": "73f83347-f01e-4a03-952a-f7baf26d35bb"
+        },
+        {
+            "id": "q0021",
+            "question": "When are annual performance reviews conducted?",
+            "ground_truth": "Every December.",
+            "expected_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "Annual performance reviews are conducted every December, as stated in the Employee_Handbook_2024.pdf on page 2.",
+            "actual_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.500456690788269,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p2_c1",
+                    "distance": 0.7004252076148987,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c3",
+                    "distance": 0.8885356783866882,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2139.0929999761283,
+                "chroma_ms": 6.485099904239178,
+                "retrieval_total_ms": 2145.6059999763966,
+                "prompt_ms": 0.045599997974932194,
+                "llm_ms": 33166.69609991368,
+                "total_ms": 35312.4039999675
+            },
+            "request_id": "507b9915-5352-4b92-9586-656f24441ea0"
+        },
+        {
+            "id": "q0022",
+            "question": "What is the purpose of the 90-day review?",
+            "ground_truth": "For new hires.",
+            "expected_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The purpose of the 90-day review is for new hires, as stated in the Employee_Handbook_2024.pdf on page 2.",
+            "actual_sources": [
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.592686116695404,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Data_Privacy_AI_Ethics_Policy.pdf_p2_c1",
+                    "distance": 0.800669252872467,
+                    "document": "Data_Privacy_AI_Ethics_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.8473829627037048,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2171.0826999042183,
+                "chroma_ms": 6.552000064402819,
+                "retrieval_total_ms": 2177.656199899502,
+                "prompt_ms": 0.034899916499853134,
+                "llm_ms": 31108.134599984623,
+                "total_ms": 33285.866799997166
+            },
+            "request_id": "d0fd2cc3-dc16-46ec-8868-314f89768ac6"
+        },
+        {
+            "id": "q0023",
+            "question": "What is the maximum reimbursement amount for a home office setup?",
+            "ground_truth": "One-time $500 reimbursement.",
+            "expected_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The maximum reimbursement amount for a home office setup is one-time $500, as stated in the provided context. \n\nSource: Financial_Policies_Procedures.pdf, Page: 1.",
+            "actual_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p1_c4",
+                    "distance": 0.6565442681312561,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p1_c2",
+                    "distance": 0.7260534763336182,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c2",
+                    "distance": 0.7715579271316528,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2187.14620009996,
+                "chroma_ms": 7.6898999977856874,
+                "retrieval_total_ms": 2194.868899998255,
+                "prompt_ms": 0.0619000056758523,
+                "llm_ms": 47811.248900019564,
+                "total_ms": 50006.25109998509
+            },
+            "request_id": "c4f93529-ed0f-48c3-ac6c-a1552fe0acb3"
+        },
+        {
+            "id": "q0024",
+            "question": "What is the daily alcohol reimbursement limit for meals and incidentals?",
+            "ground_truth": "$30/day.",
+            "expected_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The daily alcohol reimbursement limit for meals and incidentals is not specified in the provided company documents. \n\nInformation is not available in the provided company documents.",
+            "actual_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c2",
+                    "distance": 0.677824854850769,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c4",
+                    "distance": 0.8195465803146362,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p1_c2",
+                    "distance": 0.8485926389694214,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2184.5690000336617,
+                "chroma_ms": 7.263500010594726,
+                "retrieval_total_ms": 2191.891400027089,
+                "prompt_ms": 0.04579999949783087,
+                "llm_ms": 43708.06309999898,
+                "total_ms": 45900.051000062376
+            },
+            "request_id": "5f3fb8a0-fd19-44f3-8afc-5deb13be4c7a"
+        },
+        {
+            "id": "q0025",
+            "question": "What is the monthly credit card limit for a VP or higher position?",
+            "ground_truth": "$50,000",
+            "expected_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The monthly credit card limit for a VP or higher position is $50,000, as stated in SOURCE 1, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c2",
+                    "distance": 0.56883704662323,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c1",
+                    "distance": 0.6057961583137512,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p1_c2",
+                    "distance": 0.7159122824668884,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2201.1008999543265,
+                "chroma_ms": 6.6095000365749,
+                "retrieval_total_ms": 2207.75419997517,
+                "prompt_ms": 0.0366999302059412,
+                "llm_ms": 52152.195700095035,
+                "total_ms": 54360.02949997783
+            },
+            "request_id": "6f6f1c18-e334-4b63-9157-d3960a523030"
+        },
+        {
+            "id": "q0026",
+            "question": "What is required for a new vendor to be set up in the company?",
+            "ground_truth": "Finance approval",
+            "expected_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "To set up a new vendor in the company, the following requirements are necessary:\n\n1. All vendors must complete the W-9 form.  \n   **Source:** Financial_Policies_Procedures.pdf, Page 2  \n\n2. New vendor setup requires Finance approval.  \n   **Source:** Financial_Policies_Procedures.pdf, Page 2  \n\n3. Depending on the risk tier, additional requirements may apply:\n   - **Tier 1 Vendors:** Basic vendor information (W-9, business license).  \n     **Source:** Vendor_ThirdParty_Risk_Management.pdf, Page 1  \n   - **Tier 2 Vendors:** Tier 1 requirements plus a security questionnaire, review of the vendor's privacy policy, and a business continuity/disaster recovery summary.  \n     **Source:** Vendor_ThirdParty_Risk_Management.pdf, Page 1  \n   - **Tier 3 Vendors:** Tier 2 requirements plus an on-site audit (or third-party audit report, e.g., SOC2), penetration testing results, and other security measures.  \n     **Source:** Vendor_ThirdParty_Risk_Management.pdf, Page 1  \n\nThe information is not available in the provided company documents regarding specific details about the vendor setup process beyond these requirements.",
+            "actual_sources": [
+                {
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Financial_Policies_Procedures.pdf_p2_c1",
+                    "distance": 0.7416947484016418,
+                    "document": "Financial_Policies_Procedures.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c2",
+                    "distance": 0.7784733176231384,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p1_c3",
+                    "distance": 0.841895580291748,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2182.3669999139383,
+                "chroma_ms": 8.422699989750981,
+                "retrieval_total_ms": 2190.8260999480262,
+                "prompt_ms": 0.06160000339150429,
+                "llm_ms": 124935.6999999145,
+                "total_ms": 127126.64959998801
+            },
+            "request_id": "d1cd6e0c-9d73-447b-94fb-db6fc3779641"
+        },
+        {
+            "id": "q0027",
+            "question": "What are the password requirements for user authentication according to the IT Security Policy?",
+            "ground_truth": "Strong passwords required with: Minimum 14 characters, at least 1 uppercase letter, at least 1 lowercase letter, at least 1 number, at least 1 special character. Passwords expire every 60 days. Cannot reuse last 12 passwords. Account locks after 3 failed attempts.",
+            "expected_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The password requirements for user authentication according to the IT Security Policy are as follows:\n\n- Minimum 14 characters.\n- At least 1 uppercase letter.\n- At least 1 lowercase letter.\n- At least 1 number.\n- At least 1 special character.\n- Passwords expire every 60 days.\n- Cannot reuse last 12 passwords.\n- Account locks after 3 failed attempts.\n\nThese requirements are specified in **SOURCE 1** and **SOURCE 2**.",
+            "actual_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c1",
+                    "distance": 0.47865864634513855,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c2",
+                    "distance": 0.6812109351158142,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c4",
+                    "distance": 0.7722780108451843,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2175.6342999869958,
+                "chroma_ms": 7.964999997057021,
+                "retrieval_total_ms": 2183.623499935493,
+                "prompt_ms": 0.05300005432218313,
+                "llm_ms": 70665.32890009694,
+                "total_ms": 72849.05149997212
+            },
+            "request_id": "baf12810-febf-41a7-b99c-144bbbf88fc0"
+        },
+        {
+            "id": "q0028",
+            "question": "Which systems require Multi-Factor Authentication (MFA) according to the IT Security Policy?",
+            "ground_truth": "All remote access, administrative accounts, financial systems, email access from new devices, and access to any system containing law enforcement data require MFA.",
+            "expected_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "According to the IT Security Policy, Multi-Factor Authentication (MFA) is required for the following systems:\n\n- All remote access.\n- Administrative accounts.\n- Financial systems.\n- Email access from new devices.\n- Access to any system containing law enforcement data.\n\nThese requirements are specified in **SOURCE 1** (Document: IT_Security_Policy.pdf, Page: 1).",
+            "actual_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c2",
+                    "distance": 0.40553706884384155,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p1_c1",
+                    "distance": 0.5338442325592041,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c1",
+                    "distance": 0.7678407430648804,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2211.4469000371173,
+                "chroma_ms": 7.090099970810115,
+                "retrieval_total_ms": 2218.5674998909235,
+                "prompt_ms": 0.07449998520314693,
+                "llm_ms": 67698.91290005762,
+                "total_ms": 69917.61689994019
+            },
+            "request_id": "64bb6f3e-dc3c-4d92-9b5f-110d36913ce8"
+        },
+        {
+            "id": "q0029",
+            "question": "What is required for remote access to the corporate network?",
+            "ground_truth": "VPN required for all remote access.",
+            "expected_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "To access the corporate network remotely, a **VPN is required**. This is specified in **SOURCE 1 (IT_Security_Policy.pdf, Page 2)** under \"Network Access.\"",
+            "actual_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c1",
+                    "distance": 0.5571529269218445,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c3",
+                    "distance": 0.7410763502120972,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c4",
+                    "distance": 0.7843372821807861,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2168.748600059189,
+                "chroma_ms": 6.888199946843088,
+                "retrieval_total_ms": 2175.6661999970675,
+                "prompt_ms": 0.05250005051493645,
+                "llm_ms": 54727.3704999825,
+                "total_ms": 56903.14959990792
+            },
+            "request_id": "710dc3e8-0233-4777-9d30-5c29624d2fbc"
+        },
+        {
+            "id": "q0030",
+            "question": "What should be done if a device is lost or stolen?",
+            "ground_truth": "Reported as a lost/stolen device under reportable incidents.",
+            "expected_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "If a device is lost or stolen, the following steps should be taken based on the provided company documents:\n\n1. Immediately contact IT Security: security@capulus.com  \n2. Call the hotline: 1■888■SEC■URITY (24/7)  \n3. Do not power off the affected systems.  \n4. Preserve all evidence.  \n5. Await instructions from the security team.  \n\nAdditionally, the company data on the device can be wiped remotely.  \n\n**Source:** IT_Security_Policy.pdf, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c2",
+                    "distance": 0.5759960412979126,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c1",
+                    "distance": 0.8035246729850769,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Business_Continuity_Disaster_Recovery.pdf_p1_c4",
+                    "distance": 0.8617296814918518,
+                    "document": "Business_Continuity_Disaster_Recovery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2162.672400008887,
+                "chroma_ms": 7.385100005194545,
+                "retrieval_total_ms": 2170.0895000249147,
+                "prompt_ms": 0.10730000212788582,
+                "llm_ms": 81042.7831999259,
+                "total_ms": 83213.04530010093
+            },
+            "request_id": "74ea479f-6824-496d-9e8f-40ef79f1f82e"
+        },
+        {
+            "id": "q0031",
+            "question": "Which approvals are required for the Design phase of the Product Development Lifecycle?",
+            "ground_truth": "Engineering Lead, Security, AI Ethics",
+            "expected_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The approvals required for the Design phase of the Product Development Lifecycle are Engineering Lead, Security, and AI Ethics, as indicated in the \"Quality Gates and Approvals\" table under the Design phase. \n\nSource: SOURCE 3, Page 1.",
+            "actual_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c1",
+                    "distance": 0.5919511318206787,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c2",
+                    "distance": 0.6136058568954468,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c5",
+                    "distance": 0.6181150078773499,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2189.7454999852926,
+                "chroma_ms": 8.785099955275655,
+                "retrieval_total_ms": 2198.5625999514014,
+                "prompt_ms": 0.054299947805702686,
+                "llm_ms": 51298.076900071464,
+                "total_ms": 53496.76000000909
+            },
+            "request_id": "f4ff814b-c818-4c8a-8d80-81ce1ecbf919"
+        },
+        {
+            "id": "q0032",
+            "question": "What are the deliverables for the Development and Testing phase?",
+            "ground_truth": "Working software, test reports, bias assessment results",
+            "expected_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The deliverables for the Development and Testing phase are: Working software, test reports, and bias assessment results. These are outlined in SOURCE 1, Page 1.",
+            "actual_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c2",
+                    "distance": 0.6338202953338623,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c1",
+                    "distance": 0.682940661907196,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c3",
+                    "distance": 0.686987578868866,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2157.707400037907,
+                "chroma_ms": 7.266900036484003,
+                "retrieval_total_ms": 2164.9993000319228,
+                "prompt_ms": 0.04039995837956667,
+                "llm_ms": 52207.319600041956,
+                "total_ms": 54372.40460002795
+            },
+            "request_id": "a122001c-160b-4edc-ae4f-a9adbcf6f5de"
+        },
+        {
+            "id": "q0033",
+            "question": "What are the metrics for success listed in the document?",
+            "ground_truth": "Customer adoption rate, Model accuracy / precision / recall, Time from concept to GA, Post-release defect density.",
+            "expected_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The metrics for success listed in the documents are:\n\n1. Customer adoption rate (from **Product_Development_Lifecycle.pdf**, Page 2).\n2. Model accuracy / precision / recall (from **Product_Development_Lifecycle.pdf**, Page 2).\n3. Time from concept to GA (from **Product_Development_Lifecycle.pdf**, Page 2).\n4. Post-release defect density (from **Product_Development_Lifecycle.pdf**, Page 2).\n5. Schedule Variance (SV) (from **Project_Management_Handbook.pdf**, Page 2).\n6. Cost Variance (CV) (from **Project_Management_Handbook.pdf**, Page 2).\n7. ROI/TCO Analysis (from **Project_Management_Handbook.pdf**, Page 2).\n8. Resource Utilization (from **Project_Management_Handbook.pdf**, Page 2).\n9. Quality Metrics (defect rate) (from **Project_Management_Handbook.pdf**, Page 2).\n10. Velocity (from **Project_Management_Handbook.pdf**, Page 2).\n11. Sprint Burndown (from **Project_Management_Handbook.pdf**, Page 2).\n12. Release Burndown (from **Project_Management_Handbook.pdf**, Page 2).\n13. Cumulative Flow (from **Project_Management_Handbook.pdf**, Page 2).\n14. Cycle Time (from **Project_Management_Handbook.pdf**, Page 2).\n15. On-Time Delivery (±10%) (from **Project_Management_Handbook.pdf**, Page 2).\n16. Budget Variance (±5%) (from **Project_Management_Handbook.pdf**, Page 2).\n17. Stakeholder Satisfaction (>4.5/5) (from **Project_Management_Handbook.pdf**, Page 2).\n18. Defect Rate (<3%) (from **Project_Management_Handbook.pdf**, Page 2).\n19. Team Satisfaction (>4.2/5) (from **Project_Management_Handbook.pdf**, Page 2).",
+            "actual_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p2_c1",
+                    "distance": 0.689293384552002,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p2_c1",
+                    "distance": 0.7225964069366455,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Employee_Handbook_2024.pdf_p2_c1",
+                    "distance": 0.8091702461242676,
+                    "document": "Employee_Handbook_2024.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2178.2083000289276,
+                "chroma_ms": 27.462300029583275,
+                "retrieval_total_ms": 2205.704800086096,
+                "prompt_ms": 0.0591999851167202,
+                "llm_ms": 164517.32099999208,
+                "total_ms": 166723.15269999672
+            },
+            "request_id": "43f6e41e-2c47-4cfd-8732-14972dc8ce21"
+        },
+        {
+            "id": "q0034",
+            "question": "Which metric measures how quickly a product moves from concept to general availability?",
+            "ground_truth": "Time from concept to GA.",
+            "expected_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The metric that measures how quickly a product moves from concept to general availability is \"Time from concept to GA.\" This is explicitly mentioned in SOURCE 1, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p2_c1",
+                    "distance": 0.5455480813980103,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p2_c1",
+                    "distance": 0.7427346706390381,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c3",
+                    "distance": 0.7457721829414368,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2175.8171999827027,
+                "chroma_ms": 7.937500020489097,
+                "retrieval_total_ms": 2183.7794999592006,
+                "prompt_ms": 0.039499951526522636,
+                "llm_ms": 52342.899000039324,
+                "total_ms": 54526.76819998305
+            },
+            "request_id": "a47fd2c3-baf6-4bfa-b46f-f5dc2a12cb6d"
+        },
+        {
+            "id": "q0035",
+            "question": "What is the recommended project methodology for software development projects involving AI at Capulus Technologies?",
+            "ground_truth": "Agile/Scrum",
+            "expected_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The recommended project methodology for software development projects involving AI at Capulus Technologies is **Agile/Scrum**, as specified in the **Project_Management_Handbook.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c1",
+                    "distance": 0.3210994005203247,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c1",
+                    "distance": 0.5192663669586182,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c1",
+                    "distance": 0.6162698268890381,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2195.0288999360055,
+                "chroma_ms": 8.496599970385432,
+                "retrieval_total_ms": 2203.558999928646,
+                "prompt_ms": 0.05709996912628412,
+                "llm_ms": 57255.57649997063,
+                "total_ms": 59459.25640000496
+            },
+            "request_id": "840bc17b-2a25-4dec-9291-cd62086fb1d8"
+        },
+        {
+            "id": "q0036",
+            "question": "How long does a sprint last according to the Agile Framework described in the document?",
+            "ground_truth": "2 weeks",
+            "expected_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "According to the Agile Framework described in the document, a sprint lasts **2 weeks (fixed)**. This information is cited from **Project_Management_Handbook.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c2",
+                    "distance": 0.6364870667457581,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c2",
+                    "distance": 0.8522541522979736,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p1_c3",
+                    "distance": 0.8737961649894714,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2180.159299983643,
+                "chroma_ms": 6.2954999739304185,
+                "retrieval_total_ms": 2186.477500014007,
+                "prompt_ms": 0.03670004662126303,
+                "llm_ms": 57437.947000027634,
+                "total_ms": 59624.50599996373
+            },
+            "request_id": "f394716a-9e33-461f-8479-b9b66c4ca880"
+        },
+        {
+            "id": "q0037",
+            "question": "What are the mandatory metrics listed in the Project Management Handbook?",
+            "ground_truth": "Schedule Variance (SV), Cost Variance (CV), ROI/TCO Analysis, Resource Utilization, and Quality Metrics (defect rate).",
+            "expected_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The mandatory metrics listed in the Project Management Handbook are:\n\n- Schedule Variance (SV)\n- Cost Variance (CV)\n- ROI/TCO Analysis\n- Resource Utilization\n- Quality Metrics (defect rate)\n\nThese metrics are cited from **SOURCE 2**, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c1",
+                    "distance": 0.6933923959732056,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p2_c1",
+                    "distance": 0.7042548060417175,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p1_c3",
+                    "distance": 0.7812435626983643,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2169.3075000075623,
+                "chroma_ms": 7.203700020909309,
+                "retrieval_total_ms": 2176.540400017984,
+                "prompt_ms": 0.05619996227324009,
+                "llm_ms": 61099.130999995396,
+                "total_ms": 63275.78790008556
+            },
+            "request_id": "de686ebb-18b9-4c61-99c2-5e498d851460"
+        },
+        {
+            "id": "q0038",
+            "question": "What is the target for On-Time Delivery according to the Success Criteria table?",
+            "ground_truth": "±10%",
+            "expected_sources": [
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                }
+            ],
+            "type": "answerable",
+            "answer": "The target for On-Time Delivery according to the Success Criteria table is ±10%. This information is found in SOURCE 3, Page 2.",
+            "actual_sources": [
+                {
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Customer_Engagement_Solution_Delivery.pdf_p1_c5",
+                    "distance": 0.6889623999595642,
+                    "document": "Customer_Engagement_Solution_Delivery.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Product_Development_Lifecycle.pdf_p2_c1",
+                    "distance": 0.7466432452201843,
+                    "document": "Product_Development_Lifecycle.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Project_Management_Handbook.pdf_p2_c1",
+                    "distance": 0.7650424242019653,
+                    "document": "Project_Management_Handbook.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2180.7959000580013,
+                "chroma_ms": 3.9552999660372734,
+                "retrieval_total_ms": 2184.765800018795,
+                "prompt_ms": 0.025799963623285294,
+                "llm_ms": 40846.22229996603,
+                "total_ms": 43031.04870009702
+            },
+            "request_id": "4d5ea0a3-561d-487e-9f46-94c3f64b6f33"
+        },
+        {
+            "id": "q0039",
+            "question": "What are the requirements for Tier 3 vendors during the due diligence process?",
+            "ground_truth": "Tier 3 vendors must meet Tier 2 requirements plus on-site audit (or third-party audit report e.g., SOC2), penetration testing results, contractual clauses for data protection, breach notification, and right to audit, and proof of compliance with relevant regulations (GDPR, local policing data laws).",
+            "expected_sources": [
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "The requirements for Tier 3 vendors during the due diligence process include:\n\n- Tier 2 requirements plus:\n- On-site audit (or third-party audit report, e.g., SOC2).\n- Penetration testing results.\n\nThese requirements are specified in **Vendor_ThirdParty_Risk_Management.pdf** (Page 1).",
+            "actual_sources": [
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c2",
+                    "distance": 0.39370280504226685,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c1",
+                    "distance": 0.6499522924423218,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c4",
+                    "distance": 0.6954046487808228,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2178.047699970193,
+                "chroma_ms": 7.695800042711198,
+                "retrieval_total_ms": 2185.775200021453,
+                "prompt_ms": 0.05709996912628412,
+                "llm_ms": 60407.99410000909,
+                "total_ms": 62593.88870000839
+            },
+            "request_id": "356ba837-7f4d-4019-a5f1-f78de27ec31e"
+        },
+        {
+            "id": "q0040",
+            "question": "What happens if a vendor experiences a security incident involving Capulus data?",
+            "ground_truth": "The vendor will undergo an immediate re-assessment.",
+            "expected_sources": [
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                }
+            ],
+            "type": "answerable",
+            "answer": "If a vendor experiences a security incident involving Capulus data, the vendor is expected to report the incident immediately, as outlined in the incident response procedures. However, the specific actions Capulus takes in response to such an incident are not detailed in the provided context. \n\nThe information is not available in the provided company documents.",
+            "actual_sources": [
+                {
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                },
+                {
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieved_chunks": [
+                {
+                    "chunk_id": "Vendor_ThirdParty_Risk_Management.pdf_p1_c1",
+                    "distance": 0.49603694677352905,
+                    "document": "Vendor_ThirdParty_Risk_Management.pdf",
+                    "page": 1
+                },
+                {
+                    "chunk_id": "IT_Security_Policy.pdf_p2_c2",
+                    "distance": 0.5257851481437683,
+                    "document": "IT_Security_Policy.pdf",
+                    "page": 2
+                },
+                {
+                    "chunk_id": "Code_of_Conduct_Ethics.pdf_p2_c2",
+                    "distance": 0.6050831079483032,
+                    "document": "Code_of_Conduct_Ethics.pdf",
+                    "page": 2
+                }
+            ],
+            "retrieval": {
+                "status": null,
+                "chunks_returned": 3
+            },
+            "latency": {
+                "embedding_ms": 2199.387399945408,
+                "chroma_ms": 6.162200006656349,
+                "retrieval_total_ms": 2205.5722000077367,
+                "prompt_ms": 0.03839994315057993,
+                "llm_ms": 68737.2417000588,
+                "total_ms": 70942.89720000234
+            },
+            "request_id": "c6529b8e-ddcb-4fd6-ac65-bfc9028dfdf9"
+        }
+    ]
+}
